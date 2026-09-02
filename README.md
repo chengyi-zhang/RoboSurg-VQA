@@ -6,7 +6,9 @@
 
 **Surgical images. Structured questions. Traceable answers.**
 
-Chengyi Zhang &nbsp;&middot;&nbsp; Zi Ye &nbsp;&middot;&nbsp; Ziyang Wang
+Chengyi Zhang &nbsp;&middot;&nbsp; Zi Ye &nbsp;&middot;&nbsp; Ziyang Wang<sup>*</sup>
+
+<sub>* Corresponding author: <a href="mailto:z.wang47@aston.ac.uk">z.wang47@aston.ac.uk</a></sub>
 
 [![Data sources](https://img.shields.io/badge/EndoVis-2017_%2B_2018-137C82?style=flat-square)](#dataset)
 [![Python](https://img.shields.io/badge/Python-3.12-43698C?style=flat-square&logo=python&logoColor=white)](docs/reproduction.md)
