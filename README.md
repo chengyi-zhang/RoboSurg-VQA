@@ -1,23 +1,38 @@
+<div align="center">
+
 # RoboSurg-VQA
 
-**A Multimodal Visual Question Answering Benchmark Derived from Surgical Segmentation Data**
+### A Multimodal Visual Question Answering Benchmark<br>Derived from Surgical Segmentation Data
 
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB)](docs/reproduction.md)
-[![Code: MIT](https://img.shields.io/badge/Code-MIT-167D7F)](LICENSE)
+**Surgical images. Structured questions. Traceable answers.**
 
-[Dataset](#dataset) | [Reference results](#reference-results) | [Quickstart](#quickstart) | [Reproduction](docs/reproduction.md) | [Citation](#citation)
+Chengyi Zhang &nbsp;&middot;&nbsp; Zi Ye &nbsp;&middot;&nbsp; Ziyang Wang
 
-RoboSurg-VQA pairs surgical images with closed-set questions about procedure
-context, anatomy, visibility and image quality. It brings EndoVis segmentation
-data into a shared question-answer format while retaining the source of each
-label. This repository provides the benchmark records, human audit, reference
-models and predictions used in the accompanying manuscript.
+[![Data sources](https://img.shields.io/badge/EndoVis-2017_%2B_2018-137C82?style=flat-square)](#dataset)
+[![Python](https://img.shields.io/badge/Python-3.12-43698C?style=flat-square&logo=python&logoColor=white)](docs/reproduction.md)
+[![Reproduction](https://img.shields.io/badge/Reproduce-frozen_predictions-94526D?style=flat-square)](#quickstart)
+[![Licence](https://img.shields.io/badge/Code-MIT-64717D?style=flat-square)](LICENSE)
 
-| Surgical frames | Question-answer records | Audited frames | Source sequences |
-| ---: | ---: | ---: | ---: |
-| **5,632** | **59,552** | **250** | **29** |
+[Overview](#overview) &nbsp;|&nbsp; [Dataset](#dataset) &nbsp;|&nbsp; [Results](#reference-results) &nbsp;|&nbsp; [Quickstart](#quickstart) &nbsp;|&nbsp; [Documentation](#documentation) &nbsp;|&nbsp; [Citation](#citation)
+
+</div>
+
+<p align="center">
+  <img src="docs/assets/overview.png" width="100%" alt="RoboSurg-VQA overview: EndoVis 2017 and 2018 source data, separately recorded annotation origins, and a shared image-question model. The benchmark contains 5,632 frames, 59,552 question-answer records, 250 audited frames and 29 source sequences.">
+</p>
+
+<p align="center"><sub>From source segmentation data to traceable question-answer records and shared-model evaluation. <a href="docs/assets/overview.svg">View the vector figure.</a></sub></p>
 
 ## Overview
+
+Segmentation datasets contain more information about a surgical scene than
+pixel labels alone express. RoboSurg-VQA makes those frames queryable through
+closed-set questions about procedure context, anatomy, visibility and image
+quality. It retains the origin of each answer and the original source-sequence
+splits, bringing two EndoVis collections into a common evaluation format.
+
+This repository accompanies the manuscript and contains the benchmark records,
+human audit, reference implementations and frozen predictions.
 
 - **A common question-answer interface.** Canonical questions, training
   paraphrases and held-out paraphrases cover the same closed answer sets.
@@ -29,6 +44,10 @@ models and predictions used in the accompanying manuscript.
   encoders is evaluated alongside answer-frequency, question-only and
   image-only controls. Taskwise RGB and mask-geometry baselines provide
   complementary comparisons.
+
+> **Start with the results, not a training run.** The frozen predictions and
+> annotations are included. The [quickstart](#quickstart) checks the release
+> and runs the tests without a GPU, source images or API calls.
 
 ## Dataset
 
@@ -111,12 +130,22 @@ For environment setup, the remaining analyses, feature extraction and training,
 follow [Reproduction](docs/reproduction.md). Dataset preparation is needed for
 feature extraction, but not for the statistical analyses.
 
-## Repository layout
+## Documentation
+
+| Guide | What you will find |
+| --- | --- |
+| [Data preparation](docs/data_preparation.md) | Official downloads, retained frames, array layout and source splits |
+| [Reproduction](docs/reproduction.md) | Statistical analyses, feature extraction, training and pinned checkpoints |
+| [Question definitions](configs/questions.json) | Canonical questions, training paraphrases and held-out wording |
+| [Human audit](data/human_reference/) | Sample manifest, independent annotations, adjudication and protocol |
+| [Automated checks](.github/workflows/validate.yml) | File integrity, record consistency and metric regression tests |
+
+### Repository layout
 
 ```text
 configs/     Question definitions, prompts and model settings
 data/        Benchmark records and human-reference annotations
-docs/        Data preparation and reproduction instructions
+docs/        Data preparation, reproduction and overview figure
 results/     Frozen predictions and numerical results
 scripts/     Dataset assembly, training and evaluation
 tests/       Metric and data-integrity regression tests
