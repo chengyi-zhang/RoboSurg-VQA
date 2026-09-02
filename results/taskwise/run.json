@@ -1,0 +1,240 @@
+{
+  "protocol": "taskwise_fixed_baselines",
+  "split": "frozen video-level train/test split; task-specific applicability",
+  "task_summary": {
+    "q2": {
+      "eligible_n": 3232,
+      "train_n": 2235,
+      "test_n": 997,
+      "train_video_count": 15,
+      "test_video_count": 4,
+      "eligible_sites": [
+        "site2"
+      ],
+      "labels": [
+        "covered kidney (fat/fascia-covered kidney)",
+        "kidney (parenchyma)",
+        "other abdominal soft tissue (peritoneum/mesentery/fat)",
+        "small intestine"
+      ],
+      "test_evaluable": true
+    },
+    "q4.bleeding": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "test_evaluable": true
+    },
+    "q4.smoke": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "test_evaluable": false
+    },
+    "q4.occlusion": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "test_evaluable": true
+    },
+    "q5": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "blurry",
+        "clear",
+        "mixed"
+      ],
+      "test_evaluable": true
+    },
+    "q6": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "test_evaluable": true
+    },
+    "q7": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "test_evaluable": true
+    },
+    "q8.mask_center_5pct_v1": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "no",
+        "yes"
+      ],
+      "test_evaluable": true
+    },
+    "q9": {
+      "eligible_n": 5632,
+      "train_n": 4035,
+      "test_n": 1597,
+      "train_video_count": 23,
+      "test_video_count": 6,
+      "eligible_sites": [
+        "site1",
+        "site2"
+      ],
+      "labels": [
+        "near instrument jaws",
+        "none"
+      ],
+      "test_evaluable": false
+    }
+  },
+  "conditions": {
+    "majority_prior": "Most frequent eligible training label per fixed question.",
+    "rgb_linear": "Frozen ResNet-18 ImageNet features plus a class-balanced logistic head.",
+    "mask_linear": "Deterministic official instrument-mask geometry plus the same head.",
+    "rgb_mask_linear": "Concatenated frozen RGB and mask features plus the same head."
+  },
+  "head": {
+    "model": "LogisticRegression",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 5000,
+    "tol": 0.0001,
+    "hyperparameter_search": false,
+    "stochastic_training_seeds": "not applicable; fixed deterministic solver"
+  },
+  "bootstrap": {
+    "unit": "video_key",
+    "replicates": 1000,
+    "base_seed": 20260824
+  },
+  "headline_aggregate_policy": {
+    "included_tasks": [
+      "q2",
+      "q4.bleeding",
+      "q4.occlusion",
+      "q5",
+      "q6",
+      "q7"
+    ],
+    "excluded_deterministic_diagnostics": {
+      "q8.mask_center_5pct_v1": "The target is thresholded from central instrument-mask occupancy and would be circular in an aggregate that compares mask-derived features."
+    }
+  },
+  "packages": {
+    "scikit_learn": "1.7.2",
+    "numpy": "2.5.2"
+  },
+  "aggregate": {
+    "majority_prior": {
+      "mean_macro_f1_all_scored_tasks": 0.41537469976308666,
+      "mean_macro_f1_test_evaluable_tasks": 0.38478824012082047,
+      "test_evaluable_tasks": [
+        "q2",
+        "q4.bleeding",
+        "q4.occlusion",
+        "q5",
+        "q6",
+        "q7"
+      ]
+    },
+    "rgb_linear": {
+      "mean_macro_f1_all_scored_tasks": 0.5218139665611976,
+      "mean_macro_f1_test_evaluable_tasks": 0.4882089695294181,
+      "test_evaluable_tasks": [
+        "q2",
+        "q4.bleeding",
+        "q4.occlusion",
+        "q5",
+        "q6",
+        "q7"
+      ]
+    },
+    "mask_linear": {
+      "mean_macro_f1_all_scored_tasks": 0.5039994080029795,
+      "mean_macro_f1_test_evaluable_tasks": 0.4263502651719635,
+      "test_evaluable_tasks": [
+        "q2",
+        "q4.bleeding",
+        "q4.occlusion",
+        "q5",
+        "q6",
+        "q7"
+      ]
+    },
+    "rgb_mask_linear": {
+      "mean_macro_f1_all_scored_tasks": 0.5443978080473002,
+      "mean_macro_f1_test_evaluable_tasks": 0.4947121108665753,
+      "test_evaluable_tasks": [
+        "q2",
+        "q4.bleeding",
+        "q4.occlusion",
+        "q5",
+        "q6",
+        "q7"
+      ]
+    }
+  }
+}

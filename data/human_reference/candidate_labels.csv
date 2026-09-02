@@ -1,0 +1,251 @@
+sample_id,record_id,machine_model,q1_value,q1_confidence,q2_value,q2_confidence,q3_value,q3_confidence,q5_value,q5_confidence,q6_value,q6_confidence,q7_value,q7_confidence,q8_value,q8_confidence,q9_value,q9_confidence,q4_bleeding,q4_smoke,q4_occlusion,q4_confidence
+HR0001,site1/test/video10frame026,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0002,site1/test/video10frame059,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,endoscopic,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.7
+HR0003,site1/test/video10frame111,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0004,site1/test/video10frame137,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0005,site1/test/video10frame138,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.6,yes,0.7,none,0.9,yes,no,yes,0.7
+HR0006,site1/test/video10frame167,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.8,none,0.9,no,no,no,0.9
+HR0007,site1/test/video10frame225,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0008,site1/test/video10frame248,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0009,site1/test/video10frame272,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0010,site1/test/video9frame007,gpt-4o-mini,other abdominal procedure,0.7,small intestine,0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0011,site1/test/video9frame056,gpt-4o-mini,other abdominal procedure,0.7,small intestine,0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0012,site1/test/video9frame110,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0013,site1/test/video9frame114,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0014,site1/test/video9frame175,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0015,site1/test/video9frame215,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0016,site1/test/video9frame247,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0017,site1/test/video9frame283,gpt-4o-mini,other abdominal procedure,0.7,small intestine,0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,none,0.9,no,no,no,0.9
+HR0018,site1/train/video1frame011,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0019,site1/train/video1frame032,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0020,site1/train/video1frame065,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0021,site1/train/video1frame106,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,yes,0.7
+HR0022,site1/train/video1frame139,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.7,no,0.9,no,0.8,yes,0.7,none,0.9,no,no,yes,0.6
+HR0023,site1/train/video1frame158,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0024,site1/train/video1frame162,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,blurry,0.7,no,0.9,no,0.8,yes,0.6,none,0.9,no,no,yes,0.6
+HR0025,site1/train/video1frame164,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,yes,no,yes,0.6
+HR0026,site1/train/video1frame166,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,no,no,yes,0.6
+HR0027,site1/train/video1frame176,gpt-4o-mini,other abdominal procedure,0.7,small intestine,0.8,robotic camera,0.9,blurry,0.7,no,0.9,no,0.8,yes,0.6,none,0.9,yes,no,yes,0.6
+HR0028,site1/train/video1frame181,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0029,site1/train/video1frame200,gpt-4o-mini,other abdominal procedure,0.7,small intestine,0.8,robotic camera,0.9,blurry,0.8,yes,0.5,no,0.7,yes,0.6,none,0.9,yes,no,yes,0.6
+HR0030,site1/train/video1frame205,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0031,site1/train/video2frame005,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0032,site1/train/video2frame045,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0033,site1/train/video2frame054,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.8,yes,0.5,no,0.6,yes,0.7,none,0.9,yes,no,yes,0.6
+HR0034,site1/train/video2frame060,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.6,none,0.9,yes,no,no,0.8
+HR0035,site1/train/video2frame097,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0036,site1/train/video2frame130,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0037,site1/train/video2frame158,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0038,site1/train/video2frame182,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0039,site1/train/video2frame196,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,no,no,yes,0.6
+HR0040,site1/train/video2frame203,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0041,site1/train/video3frame014,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0042,site1/train/video3frame037,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0043,site1/train/video3frame074,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0044,site1/train/video3frame104,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.7
+HR0045,site1/train/video3frame122,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0046,site1/train/video3frame144,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0047,site1/train/video3frame196,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0048,site1/train/video3frame216,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.8,none,0.9,no,no,no,0.9
+HR0049,site1/train/video4frame015,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0050,site1/train/video4frame051,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0051,site1/train/video4frame063,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0052,site1/train/video4frame101,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0053,site1/train/video4frame116,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0054,site1/train/video4frame154,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0055,site1/train/video4frame192,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.8,none,0.9,no,no,no,0.9
+HR0056,site1/train/video4frame224,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0057,site1/train/video5frame024,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0058,site1/train/video5frame041,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0059,site1/train/video5frame059,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.8
+HR0060,site1/train/video5frame060,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.7,robotic camera,0.9,mixed,0.6,no,0.9,no,0.8,yes,0.6,none,0.9,yes,no,yes,0.7
+HR0061,site1/train/video5frame062,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.7,yes,0.8,none,0.9,yes,no,yes,0.8
+HR0062,site1/train/video5frame075,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0063,site1/train/video5frame100,gpt-4o-mini,other abdominal procedure,0.9,small intestine,0.9,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0064,site1/train/video5frame122,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.8,none,0.9,no,no,no,0.9
+HR0065,site1/train/video5frame149,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,yes,no,yes,0.6
+HR0066,site1/train/video5frame159,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0067,site1/train/video5frame169,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0068,site1/train/video5frame224,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0069,site1/train/video6frame003,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.6,yes,0.8,none,0.9,yes,no,yes,0.7
+HR0070,site1/train/video6frame017,gpt-4o-mini,renal/kidney-focused procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,none,0.9,no,no,no,0.9
+HR0071,site1/train/video6frame056,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0072,site1/train/video6frame082,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0073,site1/train/video6frame098,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0074,site1/train/video6frame127,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0075,site1/train/video6frame153,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0076,site1/train/video6frame193,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0077,site1/train/video6frame200,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0078,site1/train/video7frame011,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0079,site1/train/video7frame052,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0080,site1/train/video7frame079,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,Unknown,0.1,blurry,0.7,no,0.9,yes,0.6,no,0.9,none,0.9,no,no,no,0.9
+HR0081,site1/train/video7frame088,gpt-4o-mini,other abdominal procedure,0.9,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0082,site1/train/video7frame097,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,no,no,yes,0.7
+HR0083,site1/train/video7frame107,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,blurry,0.7,yes,0.6,no,0.5,yes,0.7,none,0.9,no,no,yes,0.6
+HR0084,site1/train/video7frame131,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0085,site1/train/video7frame157,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,blurry,0.7,no,0.9,yes,0.6,no,0.9,none,0.9,no,no,no,0.9
+HR0086,site1/train/video7frame178,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0087,site1/train/video7frame216,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0088,site1/train/video8frame017,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0089,site1/train/video8frame036,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0090,site1/train/video8frame057,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0091,site1/train/video8frame090,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0092,site1/train/video8frame117,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.8,none,0.9,no,no,no,0.9
+HR0093,site1/train/video8frame147,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0094,site1/train/video8frame190,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,none,0.9,no,no,no,0.9
+HR0095,site1/train/video8frame223,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0096,site2/test/video1frame001,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.8,yes,0.7,none,0.9,no,no,yes,0.7
+HR0097,site2/test/video1frame012,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.7,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.6,no,0.9,none,0.9,yes,no,no,0.8
+HR0098,site2/test/video1frame024,gpt-4o-mini,other abdominal procedure,0.7,small intestine,0.8,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,no,no,yes,0.6
+HR0099,site2/test/video1frame060,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.8,none,0.9,no,no,no,0.9
+HR0100,site2/test/video1frame078,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,no,no,yes,0.6
+HR0101,site2/test/video1frame092,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,none,0.9,no,no,no,0.9
+HR0102,site2/test/video1frame121,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0103,site2/test/video1frame145,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0104,site2/test/video1frame200,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0105,site2/test/video1frame236,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0106,site2/test/video2frame000,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0107,site2/test/video2frame097,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0108,site2/test/video2frame114,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0109,site2/test/video2frame135,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0110,site2/test/video2frame166,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0111,site2/test/video2frame239,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0112,site2/test/video3frame004,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0113,site2/test/video3frame041,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0114,site2/test/video3frame063,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0115,site2/test/video3frame091,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0116,site2/test/video3frame111,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0117,site2/test/video3frame176,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0118,site2/test/video3frame227,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0119,site2/test/video4frame036,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,yes,0.6,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0120,site2/test/video4frame073,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.7,no,0.9,none,0.9,no,no,no,0.9
+HR0121,site2/test/video4frame112,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.7
+HR0122,site2/test/video4frame160,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0123,site2/test/video4frame248,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.8,no,0.9,yes,0.7,no,0.9,none,0.9,no,no,no,0.9
+HR0124,site2/train/video10frame013,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0125,site2/train/video10frame034,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0126,site2/train/video10frame053,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0127,site2/train/video10frame057,gpt-4o-mini,renal/kidney-focused procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0128,site2/train/video10frame084,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.9,yes,0.7,none,0.9,no,no,yes,0.6
+HR0129,site2/train/video10frame112,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0130,site2/train/video10frame128,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0131,site2/train/video10frame143,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.6,none,0.9,no,no,no,0.9
+HR0132,site2/train/video11frame004,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.6,none,0.9,no,no,no,0.9
+HR0133,site2/train/video11frame025,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.7
+HR0134,site2/train/video11frame043,gpt-4o-mini,nephrectomy (robot-assisted),0.7,covered kidney (fat/fascia-covered kidney),0.6,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.8,none,0.8,no,yes,no,0.7
+HR0135,site2/train/video11frame045,gpt-4o-mini,nephrectomy (robot-assisted),0.7,kidney (parenchyma),0.6,robotic camera,0.9,mixed,0.5,yes,0.7,no,0.6,yes,0.7,none,0.8,no,yes,yes,0.6
+HR0136,site2/train/video11frame055,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0137,site2/train/video11frame062,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.7,no,0.9,no,0.8,yes,0.6,none,0.9,no,no,yes,0.6
+HR0138,site2/train/video11frame084,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,yes,0.6,none,0.9,no,no,yes,0.7
+HR0139,site2/train/video11frame086,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.7,yes,0.6,no,0.7,yes,0.6,none,0.8,no,yes,no,0.8
+HR0140,site2/train/video11frame087,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,no,yes,no,0.8
+HR0141,site2/train/video11frame088,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.7,yes,0.6,no,0.7,yes,0.6,none,0.8,no,yes,no,0.8
+HR0142,site2/train/video11frame106,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0143,site2/train/video11frame124,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,no,no,no,0.9
+HR0144,site2/train/video11frame137,gpt-4o-mini,nephrectomy (robot-assisted),0.9,covered kidney (fat/fascia-covered kidney),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0145,site2/train/video12frame006,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0146,site2/train/video12frame011,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.8,no,yes,no,0.7
+HR0147,site2/train/video12frame013,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,mixed,0.6,yes,0.7,no,0.6,no,0.9,none,0.9,no,yes,no,0.8
+HR0148,site2/train/video12frame014,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,yes,no,0.7
+HR0149,site2/train/video12frame023,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0150,site2/train/video12frame030,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,near instrument jaws,0.7,no,yes,no,0.8
+HR0151,site2/train/video12frame034,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,yes,0.6,none,0.8,no,yes,no,0.7
+HR0152,site2/train/video12frame035,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,mixed,0.6,yes,0.6,no,0.7,yes,0.6,near instrument jaws,0.7,yes,yes,no,0.7
+HR0153,site2/train/video12frame036,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.7,robotic camera,0.9,mixed,0.6,yes,0.6,no,0.7,yes,0.6,none,0.8,yes,yes,no,0.7
+HR0154,site2/train/video12frame038,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.7,no,yes,no,0.6
+HR0155,site2/train/video12frame044,gpt-4o-mini,nephrectomy (robot-assisted),0.7,covered kidney (fat/fascia-covered kidney),0.6,robotic camera,0.9,clear,0.8,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0156,site2/train/video12frame052,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.6,yes,0.8,none,0.8,no,yes,yes,0.7
+HR0157,site2/train/video12frame053,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.8,no,yes,no,0.7
+HR0158,site2/train/video12frame067,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0159,site2/train/video12frame069,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.6,none,0.9,no,yes,no,0.8
+HR0160,site2/train/video12frame072,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.6,yes,0.7,no,0.8,yes,0.6,none,0.9,yes,yes,no,0.8
+HR0161,site2/train/video12frame091,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,none,0.9,no,yes,no,0.8
+HR0162,site2/train/video12frame092,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,yes,0.6
+HR0163,site2/train/video12frame095,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,yes,0.7,none,0.8,no,yes,no,0.6
+HR0164,site2/train/video12frame111,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.9,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,no,0.9,none,0.9,yes,no,no,0.7
+HR0165,site2/train/video12frame130,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.8,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0166,site2/train/video12frame141,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0167,site2/train/video13frame006,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.7,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,yes,0.6
+HR0168,site2/train/video13frame034,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0169,site2/train/video13frame044,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,endoscopic,0.9,clear,0.9,yes,0.6,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0170,site2/train/video13frame069,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0171,site2/train/video13frame077,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0172,site2/train/video13frame089,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,yes,0.7,no,0.6,no,0.9,none,0.9,no,no,no,0.9
+HR0173,site2/train/video13frame108,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0174,site2/train/video13frame122,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0175,site2/train/video13frame142,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0176,site2/train/video14frame015,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,yes,0.6,none,0.9,yes,no,yes,0.7
+HR0177,site2/train/video14frame028,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,no,no,no,0.9
+HR0178,site2/train/video14frame045,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0179,site2/train/video14frame061,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0180,site2/train/video14frame090,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,endoscopic,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0181,site2/train/video14frame105,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0182,site2/train/video14frame118,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0183,site2/train/video14frame124,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.7
+HR0184,site2/train/video14frame141,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.6,yes,0.7,none,0.9,yes,no,yes,0.7
+HR0185,site2/train/video15frame018,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0186,site2/train/video15frame030,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0187,site2/train/video15frame053,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0188,site2/train/video15frame073,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0189,site2/train/video15frame079,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.8,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0190,site2/train/video15frame101,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.6,none,0.9,no,no,no,0.9
+HR0191,site2/train/video15frame119,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0192,site2/train/video15frame135,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0193,site2/train/video16frame003,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0194,site2/train/video16frame035,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0195,site2/train/video16frame056,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0196,site2/train/video16frame068,gpt-4o-mini,other abdominal procedure,0.9,small intestine,0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0197,site2/train/video16frame092,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0198,site2/train/video16frame099,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0199,site2/train/video16frame126,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0200,site2/train/video16frame147,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0201,site2/train/video1frame019,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0202,site2/train/video1frame043,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0203,site2/train/video1frame124,gpt-4o-mini,nephrectomy (robot-assisted),0.7,kidney (parenchyma),0.6,robotic camera,0.9,blurry,0.7,yes,0.5,no,0.6,yes,0.7,none,0.9,yes,no,yes,0.6
+HR0204,site2/train/video2frame047,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0205,site2/train/video2frame070,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0206,site2/train/video3frame131,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0207,site2/train/video4frame017,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0208,site2/train/video4frame028,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.9,robotic camera,0.9,blurry,0.6,yes,0.4,no,0.5,no,0.8,none,0.9,yes,no,no,0.7
+HR0209,site2/train/video4frame098,gpt-4o-mini,nephrectomy (robot-assisted),0.8,kidney (parenchyma),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.7
+HR0210,site2/train/video4frame141,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0211,site2/train/video5frame017,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0212,site2/train/video5frame034,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0213,site2/train/video5frame042,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,no,no,no,0.9
+HR0214,site2/train/video5frame068,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.6,none,0.9,yes,no,no,0.8
+HR0215,site2/train/video5frame084,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0216,site2/train/video5frame112,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0217,site2/train/video5frame121,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0218,site2/train/video5frame133,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0219,site2/train/video6frame000,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,no,no,no,0.9
+HR0220,site2/train/video6frame023,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0221,site2/train/video6frame044,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,no,no,no,0.9
+HR0222,site2/train/video6frame064,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0223,site2/train/video6frame086,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0224,site2/train/video6frame105,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,yes,0.7,none,0.9,yes,no,no,0.8
+HR0225,site2/train/video6frame127,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0226,site2/train/video6frame138,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0227,site2/train/video7frame000,gpt-4o-mini,nephrectomy (robot-assisted),0.9,covered kidney (fat/fascia-covered kidney),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,yes,0.7,none,0.9,yes,no,no,0.8
+HR0228,site2/train/video7frame026,gpt-4o-mini,nephrectomy (robot-assisted),0.9,covered kidney (fat/fascia-covered kidney),0.8,robotic camera,0.9,blurry,0.6,no,0.9,no,0.7,yes,0.8,none,0.9,yes,no,yes,0.8
+HR0229,site2/train/video7frame031,gpt-4o-mini,nephrectomy (robot-assisted),0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.7,yes,0.7,none,0.9,yes,no,yes,0.8
+HR0230,site2/train/video7frame041,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,yes,no,no,0.8
+HR0231,site2/train/video7frame067,gpt-4o-mini,other abdominal procedure,0.8,small intestine,0.9,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.7
+HR0232,site2/train/video7frame076,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.8
+HR0233,site2/train/video7frame077,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.6,none,0.9,yes,no,yes,0.7
+HR0234,site2/train/video7frame081,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.8
+HR0235,site2/train/video7frame087,gpt-4o-mini,nephrectomy (robot-assisted),0.95,kidney (parenchyma),0.9,robotic camera,0.9,clear,0.9,no,0.95,yes,0.9,no,0.9,none,0.95,yes,no,no,0.85
+HR0236,site2/train/video7frame097,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,blurry,0.6,no,0.9,no,0.7,yes,0.8,none,0.9,yes,no,yes,0.8
+HR0237,site2/train/video7frame104,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,blurry,0.6,no,0.9,no,0.7,no,0.8,none,0.9,yes,no,no,0.8
+HR0238,site2/train/video7frame129,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.8,none,0.9,yes,no,no,0.8
+HR0239,site2/train/video7frame132,gpt-4o-mini,other abdominal procedure,0.6,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0240,site2/train/video7frame146,gpt-4o-mini,nephrectomy (robot-assisted),0.9,kidney (parenchyma),0.9,robotic camera,0.9,mixed,0.6,no,0.9,no,0.8,yes,0.7,none,0.9,yes,no,yes,0.8
+HR0241,site2/train/video9frame012,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0242,site2/train/video9frame020,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.8,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0243,site2/train/video9frame055,gpt-4o-mini,renal/kidney-focused procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,yes,no,no,0.8
+HR0244,site2/train/video9frame064,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0245,site2/train/video9frame078,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.8,no,0.9,none,0.9,no,no,no,0.9
+HR0246,site2/train/video9frame099,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,clear,0.8,no,0.9,yes,0.9,no,0.8,none,0.9,no,no,no,0.9
+HR0247,site2/train/video9frame116,gpt-4o-mini,other abdominal procedure,0.8,other abdominal soft tissue (peritoneum/mesentery/fat),0.7,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0248,site2/train/video9frame131,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.9,robotic camera,0.9,clear,0.9,no,0.9,yes,0.9,no,0.9,none,0.9,no,no,no,0.9
+HR0249,site2/train/video9frame136,gpt-4o-mini,other abdominal procedure,0.7,other abdominal soft tissue (peritoneum/mesentery/fat),0.6,robotic camera,0.9,blurry,0.8,yes,0.7,no,0.6,yes,0.7,none,0.8,yes,yes,yes,0.6
+HR0250,site2/train/video9frame138,gpt-4o-mini,renal/kidney-focused procedure,0.8,covered kidney (fat/fascia-covered kidney),0.7,robotic camera,0.9,blurry,0.6,yes,0.5,no,0.6,yes,0.7,none,0.9,no,no,no,0.9

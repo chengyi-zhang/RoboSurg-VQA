@@ -1,0 +1,7 @@
+condition,wording,task_group,task_count,mean_macro_f1_fixed_labels,ci_low,ci_high
+answer_frequency,canonical,heldout_human_reference_three_tasks,3,0.4499600121342489,0.41331833279759994,0.478470640934712
+question_only,canonical,heldout_human_reference_three_tasks,3,0.29353313140974546,0.24665166613093326,0.33023106300263266
+image_only,canonical,heldout_human_reference_three_tasks,3,0.284375,0.23677248677248675,0.33804082258718343
+image_question,canonical,heldout_human_reference_three_tasks,3,0.5353535353535354,0.482622340591222,0.580127521148648
+image_question,heldout_paraphrase,heldout_human_reference_three_tasks,3,0.527417480905853,0.4774508490225555,0.5703489262629048
+image_question,wrong_question,heldout_human_reference_three_tasks,3,0.1977834612105712,0.1808783694503171,0.21153538607031783

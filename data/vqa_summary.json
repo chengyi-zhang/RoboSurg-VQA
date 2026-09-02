@@ -1,0 +1,169 @@
+{
+  "protocol": "shared_question_conditioned_vqa",
+  "records": 59552,
+  "unique_frames": 5632,
+  "global_answer_vocabulary": [
+    "nephrectomy (robot-assisted)",
+    "covered kidney (fat/fascia-covered kidney)",
+    "kidney (parenchyma)",
+    "other abdominal soft tissue (peritoneum/mesentery/fat)",
+    "small intestine",
+    "robotic camera",
+    "no",
+    "yes",
+    "blurry",
+    "clear",
+    "mixed",
+    "near instrument jaws",
+    "none"
+  ],
+  "global_answer_count": 13,
+  "task_labels": {
+    "q1": [
+      "nephrectomy (robot-assisted)"
+    ],
+    "q2": [
+      "covered kidney (fat/fascia-covered kidney)",
+      "kidney (parenchyma)",
+      "other abdominal soft tissue (peritoneum/mesentery/fat)",
+      "small intestine"
+    ],
+    "q3": [
+      "robotic camera"
+    ],
+    "q4.bleeding": [
+      "no",
+      "yes"
+    ],
+    "q4.smoke": [
+      "no",
+      "yes"
+    ],
+    "q4.occlusion": [
+      "no",
+      "yes"
+    ],
+    "q5": [
+      "blurry",
+      "clear",
+      "mixed"
+    ],
+    "q6": [
+      "no",
+      "yes"
+    ],
+    "q7": [
+      "no",
+      "yes"
+    ],
+    "q8.mask_center_5pct_v1": [
+      "no",
+      "yes"
+    ],
+    "q9": [
+      "near instrument jaws",
+      "none"
+    ]
+  },
+  "task_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4.bleeding",
+    "q4.smoke",
+    "q4.occlusion",
+    "q5",
+    "q6",
+    "q7",
+    "q8.mask_center_5pct_v1",
+    "q9"
+  ],
+  "primary_tasks": [
+    "q2",
+    "q4.bleeding",
+    "q4.occlusion",
+    "q5",
+    "q6",
+    "q7",
+    "q8.mask_center_5pct_v1"
+  ],
+  "perceptual_tasks": [
+    "q4.bleeding",
+    "q4.occlusion",
+    "q5",
+    "q6",
+    "q7"
+  ],
+  "train_sequence_count": 23,
+  "test_sequence_count": 6,
+  "validation_sequences": [
+    "train|site1/video3",
+    "train|site2/video11",
+    "train|site2/video12",
+    "train|site2/video2"
+  ],
+  "validation_split_details": {
+    "score": 9.73737990457314,
+    "missing_penalty": 0.0,
+    "validation_record_fraction": 0.16937039137833237,
+    "target_sequence_fraction": 0.17391304347826086
+  },
+  "counts_by_role": {
+    "test": 16967,
+    "train_core": 35418,
+    "validation": 7167
+  },
+  "counts_by_task_role": {
+    "q1|test": 1597,
+    "q1|train_core": 3363,
+    "q1|validation": 672,
+    "q2|test": 997,
+    "q2|train_core": 1788,
+    "q2|validation": 447,
+    "q3|test": 1597,
+    "q3|train_core": 3363,
+    "q3|validation": 672,
+    "q4.bleeding|test": 1597,
+    "q4.bleeding|train_core": 3363,
+    "q4.bleeding|validation": 672,
+    "q4.occlusion|test": 1597,
+    "q4.occlusion|train_core": 3363,
+    "q4.occlusion|validation": 672,
+    "q4.smoke|test": 1597,
+    "q4.smoke|train_core": 3363,
+    "q4.smoke|validation": 672,
+    "q5|test": 1597,
+    "q5|train_core": 3363,
+    "q5|validation": 672,
+    "q6|test": 1597,
+    "q6|train_core": 3363,
+    "q6|validation": 672,
+    "q7|test": 1597,
+    "q7|train_core": 3363,
+    "q7|validation": 672,
+    "q8.mask_center_5pct_v1|test": 1597,
+    "q8.mask_center_5pct_v1|train_core": 3363,
+    "q8.mask_center_5pct_v1|validation": 672,
+    "q9|test": 1597,
+    "q9|train_core": 3363,
+    "q9|validation": 672
+  },
+  "human_labels_used": false,
+  "task_specific_answer_filtering": false,
+  "inputs": {
+    "annotations": "data/frame_annotations.jsonl",
+    "annotations_sha256": "5FBC8AF0DD534BCEAF4FE3093467A320BB1135A396CAD08C8BFBDA8E1956DBFC",
+    "manifest": "data/manifest.jsonl",
+    "manifest_sha256": "2ECDA09F3282650622AEABCEBDD72026135920CA2524DD088F962911A76FF2CA",
+    "task_applicability": "data/task_applicability.csv",
+    "task_applicability_sha256": "8A0F165189849493104339A61503C712206EB6FE8B78C919359124FB33B1371F",
+    "q8_targets": "data/mask_targets.csv",
+    "q8_targets_sha256": "B6E35977E8457CBB79F0861387D6206E7A29A2E24C54C916E74DC1050705AFE4",
+    "questions": "configs/questions.json",
+    "questions_sha256": "28F6F1B91B561C661488457437CBE8B59CA1459A46155AEE957549CA330777CD",
+    "config": "configs/shared_vqa.json",
+    "config_sha256": "1032BB8E29DACE2158F0CD4C12CC5F89838F26432445B3C98DB1BA12A8667F53"
+  },
+  "output": "data/vqa_records.jsonl",
+  "output_sha256": "AB2FEB6ED606EAFB56D86FD83CC7003C4827996DCF2155CA37C98AC187672CDC"
+}

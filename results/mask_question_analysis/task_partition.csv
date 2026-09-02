@@ -1,0 +1,10 @@
+task,partition,test_n,test_video_clusters,test_reference_classes,test_reference_distribution,headline_discrimination_eligible
+q2,direct_mask_derived_diagnostic,997,4,4,"{""covered kidney (fat/fascia-covered kidney)"": 42, ""kidney (parenchyma)"": 214, ""other abdominal soft tissue (peritoneum/mesentery/fat)"": 737, ""small intestine"": 4}",0
+q4.bleeding,non_direct_mask_derived,1597,6,2,"{""no"": 674, ""yes"": 923}",1
+q4.occlusion,non_direct_mask_derived,1597,6,2,"{""no"": 1535, ""yes"": 62}",1
+q4.smoke,single_class_or_descriptive,1597,6,1,"{""no"": 1597}",0
+q5,non_direct_mask_derived,1597,6,2,"{""blurry"": 89, ""clear"": 1508}",1
+q6,non_direct_mask_derived,1597,6,2,"{""no"": 1553, ""yes"": 44}",1
+q7,non_direct_mask_derived,1597,6,2,"{""no"": 47, ""yes"": 1550}",1
+q8.mask_center_5pct_v1,direct_mask_derived_diagnostic,1597,6,2,"{""no"": 394, ""yes"": 1203}",0
+q9,single_class_or_descriptive,1597,6,1,"{""none"": 1597}",0

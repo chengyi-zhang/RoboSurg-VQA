@@ -1,0 +1,10 @@
+task,eligible_sites,train_n,test_n,total_variation_distance,train_classes,test_classes,missing_test_labels
+q2,site2,2235,997,0.06169156238289812,4,4,
+q4.bleeding,site1 | site2,4035,1597,0.12987936643908693,2,2,
+q4.occlusion,site1 | site2,4035,1597,0.04866171779645698,2,2,
+q4.smoke,site1 | site2,4035,1597,0.004956629491945504,2,1,yes
+q5,site1 | site2,4035,1597,0.03274634363222868,3,2,mixed
+q6,site1 | site2,4035,1597,0.004998995172950535,2,2,
+q7,site1 | site2,4035,1597,0.025836237244709938,2,2,
+q8.mask_center_5pct_v1,site1 | site2,4035,1597,0.035064506792863645,2,2,
+q9,site1 | site2,4035,1597,0.0004956629491945559,2,1,near instrument jaws

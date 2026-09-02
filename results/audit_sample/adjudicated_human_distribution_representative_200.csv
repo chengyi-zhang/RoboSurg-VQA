@@ -1,0 +1,16 @@
+stratum,field,label,count,proportion
+representative_200,q4_bleeding,no,170,0.85
+representative_200,q4_bleeding,yes,30,0.15
+representative_200,q4_smoke,no,198,0.99
+representative_200,q4_smoke,yes,2,0.01
+representative_200,q4_occlusion,no,199,0.995
+representative_200,q4_occlusion,yes,1,0.005
+representative_200,q5_value,blurry,8,0.04
+representative_200,q5_value,clear,187,0.935
+representative_200,q5_value,reflective,5,0.025
+representative_200,q6_glare,no,161,0.805
+representative_200,q6_glare,yes,39,0.195
+representative_200,q7_contrast_normal,yes,200,1.0
+representative_200,q9_smoke_region,multiple,2,0.01
+representative_200,q9_smoke_region,none,198,0.99
+representative_200,global_unusable_frame_yes_no,no,200,1.0

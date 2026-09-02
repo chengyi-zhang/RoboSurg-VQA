@@ -1,0 +1,15 @@
+﻿task,source,source_vocabulary,comparison_vocabulary,mapping_rule,fixed_metric_labels
+q4.bleeding,machine,no | yes,no | yes,Exact binary mapping,no | yes
+q4.bleeding,human,no | yes | uncertain,no | yes,Uncertain excluded,no | yes
+q4.smoke,machine,no | yes,no | yes,Exact binary mapping,no | yes
+q4.smoke,human,no | yes | uncertain,no | yes,Uncertain excluded,no | yes
+q4.occlusion,machine,no | yes,no | yes,Exact binary mapping,no | yes
+q4.occlusion,human,no | yes | uncertain,no | yes,Uncertain excluded,no | yes
+q5,machine,clear | blurry | mixed,clear | degraded,Blurry and mixed collapse to degraded,clear | degraded
+q5,human,clear | blurry | mixed | reflective | uncertain,clear | degraded,"Blurry, mixed and reflective collapse to degraded; uncertain excluded",clear | degraded
+q6,machine,no | yes,no | yes,Exact binary mapping,no | yes
+q6,human,no | yes | uncertain,no | yes,Uncertain excluded,no | yes
+q7,machine,no | yes,no | yes,Exact binary mapping; yes means normal contrast,no | yes
+q7,human,no | yes | uncertain,no | yes,Uncertain excluded; yes means normal contrast,no | yes
+q9,machine,none | near instrument jaws,none | smoke present,Near instrument jaws collapses to smoke present,none | smoke present
+q9,human,none | left | center | right | multiple | near instrument jaws | smoke present but unlocalizable | uncertain,none | smoke present,All localised or unlocalisable smoke categories collapse to smoke present; uncertain excluded,none | smoke present

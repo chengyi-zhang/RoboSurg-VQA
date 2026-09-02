@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite the accompanying manuscript."
+title: "RoboSurg-VQA"
+url: "https://github.com/chengyi-zhang/RoboSurg-VQA"
+type: dataset
+authors:
+  - family-names: Zhang
+    given-names: Chengyi
+  - family-names: Ye
+    given-names: Zi
+  - family-names: Wang
+    given-names: Ziyang
+preferred-citation:
+  type: article
+  title: "RoboSurg-VQA: A Multimodal Visual Question Answering Benchmark Derived from Surgical Segmentation Data"
+  authors:
+    - family-names: Zhang
+      given-names: Chengyi
+    - family-names: Ye
+      given-names: Zi
+    - family-names: Wang
+      given-names: Ziyang
+  year: 2026

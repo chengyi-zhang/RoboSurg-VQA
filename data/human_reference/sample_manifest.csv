@@ -1,0 +1,251 @@
+sample_id,record_id,dataset,site,split,video_key,frame_index,representative_stratum,challenge_additional_stratum,challenge_smoke_flag,challenge_reasons,central_area_instrument_fraction,sequence_key
+HR0001,site1/test/video10frame026,EndoVis 2017,site1,test,site1/video10,26,1,0,0,,0.2833777070045471,site1/test/video10
+HR0002,site1/test/video10frame059,EndoVis 2017,site1,test,site1/video10,59,1,0,0,,0.05543017014861107,site1/test/video10
+HR0003,site1/test/video10frame111,EndoVis 2017,site1,test,site1/video10,111,1,0,0,,0.11172261089086533,site1/test/video10
+HR0004,site1/test/video10frame137,EndoVis 2017,site1,test,site1/video10,137,1,0,0,,0.09459105134010315,site1/test/video10
+HR0005,site1/test/video10frame138,EndoVis 2017,site1,test,site1/video10,138,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.33033180236816406,site1/test/video10
+HR0006,site1/test/video10frame167,EndoVis 2017,site1,test,site1/video10,167,1,0,0,,0.11612847447395325,site1/test/video10
+HR0007,site1/test/video10frame225,EndoVis 2017,site1,test,site1/video10,225,1,0,0,,0.17042438685894012,site1/test/video10
+HR0008,site1/test/video10frame248,EndoVis 2017,site1,test,site1/video10,248,1,0,0,,0.2233661264181137,site1/test/video10
+HR0009,site1/test/video10frame272,EndoVis 2017,site1,test,site1/video10,272,1,0,0,,0.1299440562725067,site1/test/video10
+HR0010,site1/test/video9frame007,EndoVis 2017,site1,test,site1/video9,7,1,0,0,,0.16523919999599457,site1/test/video9
+HR0011,site1/test/video9frame056,EndoVis 2017,site1,test,site1/video9,56,1,0,0,,0.07432098686695099,site1/test/video9
+HR0012,site1/test/video9frame110,EndoVis 2017,site1,test,site1/video9,110,1,0,0,,0.08144868910312653,site1/test/video9
+HR0013,site1/test/video9frame114,EndoVis 2017,site1,test,site1/video9,114,1,0,0,,0.01854938268661499,site1/test/video9
+HR0014,site1/test/video9frame175,EndoVis 2017,site1,test,site1/video9,175,1,0,0,,0.08945409208536148,site1/test/video9
+HR0015,site1/test/video9frame215,EndoVis 2017,site1,test,site1/video9,215,1,0,0,,0.09825810045003891,site1/test/video9
+HR0016,site1/test/video9frame247,EndoVis 2017,site1,test,site1/video9,247,1,0,0,,0.23961806297302246,site1/test/video9
+HR0017,site1/test/video9frame283,EndoVis 2017,site1,test,site1/video9,283,1,0,0,,0.19768711924552917,site1/test/video9
+HR0018,site1/train/video1frame011,EndoVis 2017,site1,train,site1/video1,11,1,0,0,,0.20237120985984802,site1/train/video1
+HR0019,site1/train/video1frame032,EndoVis 2017,site1,train,site1/video1,32,1,0,0,,0.40397948026657104,site1/train/video1
+HR0020,site1/train/video1frame065,EndoVis 2017,site1,train,site1/video1,65,1,0,0,,0.12563171982765198,site1/train/video1
+HR0021,site1/train/video1frame106,EndoVis 2017,site1,train,site1/video1,106,1,0,0,,0.14432373642921448,site1/train/video1
+HR0022,site1/train/video1frame139,EndoVis 2017,site1,train,site1/video1,139,1,0,0,,0.277322381734848,site1/train/video1
+HR0023,site1/train/video1frame158,EndoVis 2017,site1,train,site1/video1,158,1,0,0,,0.05321044847369194,site1/train/video1
+HR0024,site1/train/video1frame162,EndoVis 2017,site1,train,site1/video1,162,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0056304931640625,site1/train/video1
+HR0025,site1/train/video1frame164,EndoVis 2017,site1,train,site1/video1,164,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.35477906465530396,site1/train/video1
+HR0026,site1/train/video1frame166,EndoVis 2017,site1,train,site1/video1,166,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.25729674100875854,site1/train/video1
+HR0027,site1/train/video1frame176,EndoVis 2017,site1,train,site1/video1,176,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,3.662109520519152e-05,site1/train/video1
+HR0028,site1/train/video1frame181,EndoVis 2017,site1,train,site1/video1,181,1,0,0,,0.01490173302590847,site1/train/video1
+HR0029,site1/train/video1frame200,EndoVis 2017,site1,train,site1/video1,200,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.08113403618335724,site1/train/video1
+HR0030,site1/train/video1frame205,EndoVis 2017,site1,train,site1/video1,205,1,0,0,,0.0419921875,site1/train/video1
+HR0031,site1/train/video2frame005,EndoVis 2017,site1,train,site1/video2,5,1,0,0,,0.04694824293255806,site1/train/video2
+HR0032,site1/train/video2frame045,EndoVis 2017,site1,train,site1/video2,45,1,0,0,,0.07438965141773224,site1/train/video2
+HR0033,site1/train/video2frame054,EndoVis 2017,site1,train,site1/video2,54,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.09511718899011612,site1/train/video2
+HR0034,site1/train/video2frame060,EndoVis 2017,site1,train,site1/video2,60,1,0,0,,0.19311217963695526,site1/train/video2
+HR0035,site1/train/video2frame097,EndoVis 2017,site1,train,site1/video2,97,1,0,0,,0.04031982272863388,site1/train/video2
+HR0036,site1/train/video2frame130,EndoVis 2017,site1,train,site1/video2,130,1,0,0,,0.08820190280675888,site1/train/video2
+HR0037,site1/train/video2frame158,EndoVis 2017,site1,train,site1/video2,158,1,0,0,,0.33981627225875854,site1/train/video2
+HR0038,site1/train/video2frame182,EndoVis 2017,site1,train,site1/video2,182,1,0,0,,0.013336181640625,site1/train/video2
+HR0039,site1/train/video2frame196,EndoVis 2017,site1,train,site1/video2,196,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0606842041015625,site1/train/video2
+HR0040,site1/train/video2frame203,EndoVis 2017,site1,train,site1/video2,203,1,0,0,,0.097076416015625,site1/train/video2
+HR0041,site1/train/video3frame014,EndoVis 2017,site1,train,site1/video3,14,1,0,0,,0.11792602390050888,site1/train/video3
+HR0042,site1/train/video3frame037,EndoVis 2017,site1,train,site1/video3,37,1,0,0,,0.22653503715991974,site1/train/video3
+HR0043,site1/train/video3frame074,EndoVis 2017,site1,train,site1/video3,74,1,0,0,,0.011227416805922985,site1/train/video3
+HR0044,site1/train/video3frame104,EndoVis 2017,site1,train,site1/video3,104,1,0,0,,0.25500792264938354,site1/train/video3
+HR0045,site1/train/video3frame122,EndoVis 2017,site1,train,site1/video3,122,1,0,0,,0.10560913383960724,site1/train/video3
+HR0046,site1/train/video3frame144,EndoVis 2017,site1,train,site1/video3,144,1,0,0,,0.18461303412914276,site1/train/video3
+HR0047,site1/train/video3frame196,EndoVis 2017,site1,train,site1/video3,196,1,0,0,,0.18897704780101776,site1/train/video3
+HR0048,site1/train/video3frame216,EndoVis 2017,site1,train,site1/video3,216,1,0,0,,0.20632019639015198,site1/train/video3
+HR0049,site1/train/video4frame015,EndoVis 2017,site1,train,site1/video4,15,1,0,0,,0.128326416015625,site1/train/video4
+HR0050,site1/train/video4frame051,EndoVis 2017,site1,train,site1/video4,51,1,0,0,,0.05504760891199112,site1/train/video4
+HR0051,site1/train/video4frame063,EndoVis 2017,site1,train,site1/video4,63,1,0,0,,0.0059967041015625,site1/train/video4
+HR0052,site1/train/video4frame101,EndoVis 2017,site1,train,site1/video4,101,1,0,0,,0.0044921874068677425,site1/train/video4
+HR0053,site1/train/video4frame116,EndoVis 2017,site1,train,site1/video4,116,1,0,0,,0.015103149227797985,site1/train/video4
+HR0054,site1/train/video4frame154,EndoVis 2017,site1,train,site1/video4,154,1,0,0,,0.24457398056983948,site1/train/video4
+HR0055,site1/train/video4frame192,EndoVis 2017,site1,train,site1/video4,192,1,0,0,,0.21932068467140198,site1/train/video4
+HR0056,site1/train/video4frame224,EndoVis 2017,site1,train,site1/video4,224,1,0,0,,0.11265869438648224,site1/train/video4
+HR0057,site1/train/video5frame024,EndoVis 2017,site1,train,site1/video5,24,1,0,0,,0.2901062071323395,site1/train/video5
+HR0058,site1/train/video5frame041,EndoVis 2017,site1,train,site1/video5,41,1,0,0,,0.25586241483688354,site1/train/video5
+HR0059,site1/train/video5frame059,EndoVis 2017,site1,train,site1/video5,59,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.02097168006002903,site1/train/video5
+HR0060,site1/train/video5frame060,EndoVis 2017,site1,train,site1/video5,60,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0,site1/train/video5
+HR0061,site1/train/video5frame062,EndoVis 2017,site1,train,site1/video5,62,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.04627685621380806,site1/train/video5
+HR0062,site1/train/video5frame075,EndoVis 2017,site1,train,site1/video5,75,1,0,0,,0.09305419772863388,site1/train/video5
+HR0063,site1/train/video5frame100,EndoVis 2017,site1,train,site1/video5,100,1,0,0,,0.0,site1/train/video5
+HR0064,site1/train/video5frame122,EndoVis 2017,site1,train,site1/video5,122,1,0,0,,0.19701233506202698,site1/train/video5
+HR0065,site1/train/video5frame149,EndoVis 2017,site1,train,site1/video5,149,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.328805536031723,site1/train/video5
+HR0066,site1/train/video5frame159,EndoVis 2017,site1,train,site1/video5,159,1,0,0,,0.10504455864429474,site1/train/video5
+HR0067,site1/train/video5frame169,EndoVis 2017,site1,train,site1/video5,169,1,0,0,,0.09837951511144638,site1/train/video5
+HR0068,site1/train/video5frame224,EndoVis 2017,site1,train,site1/video5,224,1,0,0,,6.408691115211695e-05,site1/train/video5
+HR0069,site1/train/video6frame003,EndoVis 2017,site1,train,site1/video6,3,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.1254730224609375,site1/train/video6
+HR0070,site1/train/video6frame017,EndoVis 2017,site1,train,site1/video6,17,1,0,0,,0.07658996433019638,site1/train/video6
+HR0071,site1/train/video6frame056,EndoVis 2017,site1,train,site1/video6,56,1,0,0,,0.23885193467140198,site1/train/video6
+HR0072,site1/train/video6frame082,EndoVis 2017,site1,train,site1/video6,82,1,0,0,,0.030487060546875,site1/train/video6
+HR0073,site1/train/video6frame098,EndoVis 2017,site1,train,site1/video6,98,1,0,0,,0.32211607694625854,site1/train/video6
+HR0074,site1/train/video6frame127,EndoVis 2017,site1,train,site1/video6,127,1,0,0,,0.011199951171875,site1/train/video6
+HR0075,site1/train/video6frame153,EndoVis 2017,site1,train,site1/video6,153,1,0,0,,0.14960022270679474,site1/train/video6
+HR0076,site1/train/video6frame193,EndoVis 2017,site1,train,site1/video6,193,1,0,0,,0.05823364108800888,site1/train/video6
+HR0077,site1/train/video6frame200,EndoVis 2017,site1,train,site1/video6,200,1,0,0,,0.0,site1/train/video6
+HR0078,site1/train/video7frame011,EndoVis 2017,site1,train,site1/video7,11,1,0,0,,0.009579467587172985,site1/train/video7
+HR0079,site1/train/video7frame052,EndoVis 2017,site1,train,site1/video7,52,1,0,0,,0.0,site1/train/video7
+HR0080,site1/train/video7frame079,EndoVis 2017,site1,train,site1/video7,79,1,0,0,,0.0,site1/train/video7
+HR0081,site1/train/video7frame088,EndoVis 2017,site1,train,site1/video7,88,1,0,0,,0.0131988525390625,site1/train/video7
+HR0082,site1/train/video7frame097,EndoVis 2017,site1,train,site1/video7,97,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0,site1/train/video7
+HR0083,site1/train/video7frame107,EndoVis 2017,site1,train,site1/video7,107,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.2981933653354645,site1/train/video7
+HR0084,site1/train/video7frame131,EndoVis 2017,site1,train,site1/video7,131,1,0,0,,0.05195922777056694,site1/train/video7
+HR0085,site1/train/video7frame157,EndoVis 2017,site1,train,site1/video7,157,1,0,0,,0.0,site1/train/video7
+HR0086,site1/train/video7frame178,EndoVis 2017,site1,train,site1/video7,178,1,0,0,,0.15277405083179474,site1/train/video7
+HR0087,site1/train/video7frame216,EndoVis 2017,site1,train,site1/video7,216,1,0,0,,0.44110107421875,site1/train/video7
+HR0088,site1/train/video8frame017,EndoVis 2017,site1,train,site1/video8,17,1,0,0,,0.17568358778953552,site1/train/video8
+HR0089,site1/train/video8frame036,EndoVis 2017,site1,train,site1/video8,36,1,0,0,,0.17188720405101776,site1/train/video8
+HR0090,site1/train/video8frame057,EndoVis 2017,site1,train,site1/video8,57,1,0,0,,0.13727112114429474,site1/train/video8
+HR0091,site1/train/video8frame090,EndoVis 2017,site1,train,site1/video8,90,1,0,0,,0.07791747897863388,site1/train/video8
+HR0092,site1/train/video8frame117,EndoVis 2017,site1,train,site1/video8,117,1,0,0,,0.1524200439453125,site1/train/video8
+HR0093,site1/train/video8frame147,EndoVis 2017,site1,train,site1/video8,147,1,0,0,,0.19274596869945526,site1/train/video8
+HR0094,site1/train/video8frame190,EndoVis 2017,site1,train,site1/video8,190,1,0,0,,0.19284668564796448,site1/train/video8
+HR0095,site1/train/video8frame223,EndoVis 2017,site1,train,site1/video8,223,1,0,0,,0.23105163872241974,site1/train/video8
+HR0096,site2/test/video1frame001,EndoVis 2018,site2,test,site2/video1,1,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.08208923041820526,site2/test/video1
+HR0097,site2/test/video1frame012,EndoVis 2018,site2,test,site2/video1,12,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement,0.13461609184741974,site2/test/video1
+HR0098,site2/test/video1frame024,EndoVis 2018,site2,test,site2/video1,24,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.10571899265050888,site2/test/video1
+HR0099,site2/test/video1frame060,EndoVis 2018,site2,test,site2/video1,60,1,0,0,,0.08472900092601776,site2/test/video1
+HR0100,site2/test/video1frame078,EndoVis 2018,site2,test,site2/video1,78,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.2262115478515625,site2/test/video1
+HR0101,site2/test/video1frame092,EndoVis 2018,site2,test,site2/video1,92,1,0,0,,0.11597900092601776,site2/test/video1
+HR0102,site2/test/video1frame121,EndoVis 2018,site2,test,site2/video1,121,1,0,0,,0.04671020433306694,site2/test/video1
+HR0103,site2/test/video1frame145,EndoVis 2018,site2,test,site2/video1,145,1,0,0,,0.166168212890625,site2/test/video1
+HR0104,site2/test/video1frame200,EndoVis 2018,site2,test,site2/video1,200,1,0,0,,0.20476989448070526,site2/test/video1
+HR0105,site2/test/video1frame236,EndoVis 2018,site2,test,site2/video1,236,1,0,0,,0.11696472018957138,site2/test/video1
+HR0106,site2/test/video2frame000,EndoVis 2018,site2,test,site2/video2,0,1,0,0,,0.06510315090417862,site2/test/video2
+HR0107,site2/test/video2frame097,EndoVis 2018,site2,test,site2/video2,97,1,0,0,,0.1478271484375,site2/test/video2
+HR0108,site2/test/video2frame114,EndoVis 2018,site2,test,site2/video2,114,1,0,0,,0.13021239638328552,site2/test/video2
+HR0109,site2/test/video2frame135,EndoVis 2018,site2,test,site2/video2,135,1,0,0,,0.10602416843175888,site2/test/video2
+HR0110,site2/test/video2frame166,EndoVis 2018,site2,test,site2/video2,166,1,0,0,,0.05120239406824112,site2/test/video2
+HR0111,site2/test/video2frame239,EndoVis 2018,site2,test,site2/video2,239,1,0,0,,0.1602935791015625,site2/test/video2
+HR0112,site2/test/video3frame004,EndoVis 2018,site2,test,site2/video3,4,1,0,0,,0.012844848446547985,site2/test/video3
+HR0113,site2/test/video3frame041,EndoVis 2018,site2,test,site2/video3,41,1,0,0,,0.0565338134765625,site2/test/video3
+HR0114,site2/test/video3frame063,EndoVis 2018,site2,test,site2/video3,63,1,0,0,,0.541827380657196,site2/test/video3
+HR0115,site2/test/video3frame091,EndoVis 2018,site2,test,site2/video3,91,1,0,0,,0.13699951767921448,site2/test/video3
+HR0116,site2/test/video3frame111,EndoVis 2018,site2,test,site2/video3,111,1,0,0,,0.15890808403491974,site2/test/video3
+HR0117,site2/test/video3frame176,EndoVis 2018,site2,test,site2/video3,176,1,0,0,,0.02218322828412056,site2/test/video3
+HR0118,site2/test/video3frame227,EndoVis 2018,site2,test,site2/video3,227,1,0,0,,0.13909606635570526,site2/test/video3
+HR0119,site2/test/video4frame036,EndoVis 2018,site2,test,site2/video4,36,1,0,0,,0.0,site2/test/video4
+HR0120,site2/test/video4frame073,EndoVis 2018,site2,test,site2/video4,73,1,0,0,,0.0,site2/test/video4
+HR0121,site2/test/video4frame112,EndoVis 2018,site2,test,site2/video4,112,1,0,0,,0.24410399794578552,site2/test/video4
+HR0122,site2/test/video4frame160,EndoVis 2018,site2,test,site2/video4,160,1,0,0,,0.14713439345359802,site2/test/video4
+HR0123,site2/test/video4frame248,EndoVis 2018,site2,test,site2/video4,248,1,0,0,,0.22417601943016052,site2/test/video4
+HR0124,site2/train/video10frame013,EndoVis 2018,site2,train,site2/video10,13,1,0,0,,0.17572326958179474,site2/train/video10
+HR0125,site2/train/video10frame034,EndoVis 2018,site2,train,site2/video10,34,1,0,0,,0.22431640326976776,site2/train/video10
+HR0126,site2/train/video10frame053,EndoVis 2018,site2,train,site2/video10,53,1,0,0,,0.2883148193359375,site2/train/video10
+HR0127,site2/train/video10frame057,EndoVis 2018,site2,train,site2/video10,57,1,0,0,,0.09428711235523224,site2/train/video10
+HR0128,site2/train/video10frame084,EndoVis 2018,site2,train,site2/video10,84,1,0,0,,0.05262146145105362,site2/train/video10
+HR0129,site2/train/video10frame112,EndoVis 2018,site2,train,site2/video10,112,1,0,0,,0.01251220703125,site2/train/video10
+HR0130,site2/train/video10frame128,EndoVis 2018,site2,train,site2/video10,128,1,0,0,,0.052459716796875,site2/train/video10
+HR0131,site2/train/video10frame143,EndoVis 2018,site2,train,site2/video10,143,1,0,0,,0.251181036233902,site2/train/video10
+HR0132,site2/train/video11frame004,EndoVis 2018,site2,train,site2/video11,4,1,0,0,,0.1819610595703125,site2/train/video11
+HR0133,site2/train/video11frame025,EndoVis 2018,site2,train,site2/video11,25,1,0,0,,0.04871521145105362,site2/train/video11
+HR0134,site2/train/video11frame043,EndoVis 2018,site2,train,site2/video11,43,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6 | q8_disagrees_with_5pct_mask_rule,0.15169373154640198,site2/train/video11
+HR0135,site2/train/video11frame045,EndoVis 2018,site2,train,site2/video11,45,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | semantic_occlusion_positive,0.24202576279640198,site2/train/video11
+HR0136,site2/train/video11frame055,EndoVis 2018,site2,train,site2/video11,55,1,0,0,,0.3800201416015625,site2/train/video11
+HR0137,site2/train/video11frame062,EndoVis 2018,site2,train,site2/video11,62,1,0,0,,0.0072174072265625,site2/train/video11
+HR0138,site2/train/video11frame084,EndoVis 2018,site2,train,site2/video11,84,1,0,0,,0.08032532036304474,site2/train/video11
+HR0139,site2/train/video11frame086,EndoVis 2018,site2,train,site2/video11,86,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule,0.04435119777917862,site2/train/video11
+HR0140,site2/train/video11frame087,EndoVis 2018,site2,train,site2/video11,87,0,1,1,all_machine_smoke_positive | contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule,0.04557495191693306,site2/train/video11
+HR0141,site2/train/video11frame088,EndoVis 2018,site2,train,site2/video11,88,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality,0.5003662109375,site2/train/video11
+HR0142,site2/train/video11frame106,EndoVis 2018,site2,train,site2/video11,106,1,0,0,,0.3311309814453125,site2/train/video11
+HR0143,site2/train/video11frame124,EndoVis 2018,site2,train,site2/video11,124,1,0,0,,0.3397064208984375,site2/train/video11
+HR0144,site2/train/video11frame137,EndoVis 2018,site2,train,site2/video11,137,1,0,0,,0.05446166917681694,site2/train/video11
+HR0145,site2/train/video12frame006,EndoVis 2018,site2,train,site2/video12,6,1,0,0,,0.08362732082605362,site2/train/video12
+HR0146,site2/train/video12frame011,EndoVis 2018,site2,train,site2/video12,11,0,1,1,all_machine_smoke_positive,0.008465575985610485,site2/train/video12
+HR0147,site2/train/video12frame013,EndoVis 2018,site2,train,site2/video12,13,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality,0.0,site2/train/video12
+HR0148,site2/train/video12frame014,EndoVis 2018,site2,train,site2/video12,14,0,1,1,all_machine_smoke_positive,0.0053802491165697575,site2/train/video12
+HR0149,site2/train/video12frame023,EndoVis 2018,site2,train,site2/video12,23,1,0,0,,0.04433899000287056,site2/train/video12
+HR0150,site2/train/video12frame030,EndoVis 2018,site2,train,site2/video12,30,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6,0.43395692110061646,site2/train/video12
+HR0151,site2/train/video12frame034,EndoVis 2018,site2,train,site2/video12,34,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6,0.3835601806640625,site2/train/video12
+HR0152,site2/train/video12frame035,EndoVis 2018,site2,train,site2/video12,35,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality,0.3861328065395355,site2/train/video12
+HR0153,site2/train/video12frame036,EndoVis 2018,site2,train,site2/video12,36,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality,0.33548277616500854,site2/train/video12
+HR0154,site2/train/video12frame038,EndoVis 2018,site2,train,site2/video12,38,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6 | q8_disagrees_with_5pct_mask_rule,0.361166387796402,site2/train/video12
+HR0155,site2/train/video12frame044,EndoVis 2018,site2,train,site2/video12,44,1,0,0,,0.3862670958042145,site2/train/video12
+HR0156,site2/train/video12frame052,EndoVis 2018,site2,train,site2/video12,52,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | semantic_occlusion_positive,0.45512086153030396,site2/train/video12
+HR0157,site2/train/video12frame053,EndoVis 2018,site2,train,site2/video12,53,0,1,1,all_machine_smoke_positive | q8_disagrees_with_5pct_mask_rule,0.12994384765625,site2/train/video12
+HR0158,site2/train/video12frame067,EndoVis 2018,site2,train,site2/video12,67,1,0,0,,0.10168762505054474,site2/train/video12
+HR0159,site2/train/video12frame069,EndoVis 2018,site2,train,site2/video12,69,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6,0.4015350341796875,site2/train/video12
+HR0160,site2/train/video12frame072,EndoVis 2018,site2,train,site2/video12,72,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality,0.441976934671402,site2/train/video12
+HR0161,site2/train/video12frame091,EndoVis 2018,site2,train,site2/video12,91,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6,0.47420042753219604,site2/train/video12
+HR0162,site2/train/video12frame092,EndoVis 2018,site2,train,site2/video12,92,1,0,0,,0.4302001893520355,site2/train/video12
+HR0163,site2/train/video12frame095,EndoVis 2018,site2,train,site2/video12,95,0,1,1,all_machine_smoke_positive | machine_min_confidence_le_0.6,0.3944549560546875,site2/train/video12
+HR0164,site2/train/video12frame111,EndoVis 2018,site2,train,site2/video12,111,1,0,0,,0.0,site2/train/video12
+HR0165,site2/train/video12frame130,EndoVis 2018,site2,train,site2/video12,130,1,0,0,,0.013500976376235485,site2/train/video12
+HR0166,site2/train/video12frame141,EndoVis 2018,site2,train,site2/video12,141,1,0,0,,0.18938598036766052,site2/train/video12
+HR0167,site2/train/video13frame006,EndoVis 2018,site2,train,site2/video13,6,1,0,0,,0.405111700296402,site2/train/video13
+HR0168,site2/train/video13frame034,EndoVis 2018,site2,train,site2/video13,34,1,0,0,,0.2481689453125,site2/train/video13
+HR0169,site2/train/video13frame044,EndoVis 2018,site2,train,site2/video13,44,1,0,0,,0.30133056640625,site2/train/video13
+HR0170,site2/train/video13frame069,EndoVis 2018,site2,train,site2/video13,69,1,0,0,,0.16695556044578552,site2/train/video13
+HR0171,site2/train/video13frame077,EndoVis 2018,site2,train,site2/video13,77,1,0,0,,0.15878906846046448,site2/train/video13
+HR0172,site2/train/video13frame089,EndoVis 2018,site2,train,site2/video13,89,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement,0.23355713486671448,site2/train/video13
+HR0173,site2/train/video13frame108,EndoVis 2018,site2,train,site2/video13,108,1,0,0,,0.11695556342601776,site2/train/video13
+HR0174,site2/train/video13frame122,EndoVis 2018,site2,train,site2/video13,122,1,0,0,,0.17525939643383026,site2/train/video13
+HR0175,site2/train/video13frame142,EndoVis 2018,site2,train,site2/video13,142,1,0,0,,0.3064819276332855,site2/train/video13
+HR0176,site2/train/video14frame015,EndoVis 2018,site2,train,site2/video14,15,1,0,0,,0.013027953915297985,site2/train/video14
+HR0177,site2/train/video14frame028,EndoVis 2018,site2,train,site2/video14,28,1,0,0,,0.307281494140625,site2/train/video14
+HR0178,site2/train/video14frame045,EndoVis 2018,site2,train,site2/video14,45,1,0,0,,0.204864501953125,site2/train/video14
+HR0179,site2/train/video14frame061,EndoVis 2018,site2,train,site2/video14,61,1,0,0,,0.13060303032398224,site2/train/video14
+HR0180,site2/train/video14frame090,EndoVis 2018,site2,train,site2/video14,90,1,0,0,,0.18207702040672302,site2/train/video14
+HR0181,site2/train/video14frame105,EndoVis 2018,site2,train,site2/video14,105,1,0,0,,0.01485595665872097,site2/train/video14
+HR0182,site2/train/video14frame118,EndoVis 2018,site2,train,site2/video14,118,1,0,0,,0.04635315015912056,site2/train/video14
+HR0183,site2/train/video14frame124,EndoVis 2018,site2,train,site2/video14,124,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.03384094312787056,site2/train/video14
+HR0184,site2/train/video14frame141,EndoVis 2018,site2,train,site2/video14,141,1,0,0,,0.286285400390625,site2/train/video14
+HR0185,site2/train/video15frame018,EndoVis 2018,site2,train,site2/video15,18,1,0,0,,0.05412597581744194,site2/train/video15
+HR0186,site2/train/video15frame030,EndoVis 2018,site2,train,site2/video15,30,1,0,0,,0.294830322265625,site2/train/video15
+HR0187,site2/train/video15frame053,EndoVis 2018,site2,train,site2/video15,53,1,0,0,,0.3364929258823395,site2/train/video15
+HR0188,site2/train/video15frame073,EndoVis 2018,site2,train,site2/video15,73,1,0,0,,0.3019042909145355,site2/train/video15
+HR0189,site2/train/video15frame079,EndoVis 2018,site2,train,site2/video15,79,1,0,0,,0.5303192138671875,site2/train/video15
+HR0190,site2/train/video15frame101,EndoVis 2018,site2,train,site2/video15,101,1,0,0,,0.11551818996667862,site2/train/video15
+HR0191,site2/train/video15frame119,EndoVis 2018,site2,train,site2/video15,119,1,0,0,,0.17987060546875,site2/train/video15
+HR0192,site2/train/video15frame135,EndoVis 2018,site2,train,site2/video15,135,1,0,0,,0.41606444120407104,site2/train/video15
+HR0193,site2/train/video16frame003,EndoVis 2018,site2,train,site2/video16,3,1,0,0,,0.09813232719898224,site2/train/video16
+HR0194,site2/train/video16frame035,EndoVis 2018,site2,train,site2/video16,35,1,0,0,,0.0179901123046875,site2/train/video16
+HR0195,site2/train/video16frame056,EndoVis 2018,site2,train,site2/video16,56,1,0,0,,0.09129943698644638,site2/train/video16
+HR0196,site2/train/video16frame068,EndoVis 2018,site2,train,site2/video16,68,1,0,0,,0.15195922553539276,site2/train/video16
+HR0197,site2/train/video16frame092,EndoVis 2018,site2,train,site2/video16,92,1,0,0,,0.03818664699792862,site2/train/video16
+HR0198,site2/train/video16frame099,EndoVis 2018,site2,train,site2/video16,99,1,0,0,,0.04609375074505806,site2/train/video16
+HR0199,site2/train/video16frame126,EndoVis 2018,site2,train,site2/video16,126,1,0,0,,0.15534667670726776,site2/train/video16
+HR0200,site2/train/video16frame147,EndoVis 2018,site2,train,site2/video16,147,1,0,0,,0.29293519258499146,site2/train/video16
+HR0201,site2/train/video1frame019,EndoVis 2018,site2,train,site2/video1,19,1,0,0,,0.06989745795726776,site2/train/video1
+HR0202,site2/train/video1frame043,EndoVis 2018,site2,train,site2/video1,43,1,0,0,,0.07122802734375,site2/train/video1
+HR0203,site2/train/video1frame124,EndoVis 2018,site2,train,site2/video1,124,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.10967407375574112,site2/train/video1
+HR0204,site2/train/video2frame047,EndoVis 2018,site2,train,site2/video2,47,1,0,0,,0.1705322265625,site2/train/video2
+HR0205,site2/train/video2frame070,EndoVis 2018,site2,train,site2/video2,70,1,0,0,,0.01587829552590847,site2/train/video2
+HR0206,site2/train/video3frame131,EndoVis 2018,site2,train,site2/video3,131,1,0,0,,0.309286504983902,site2/train/video3
+HR0207,site2/train/video4frame017,EndoVis 2018,site2,train,site2/video4,17,1,0,0,,0.00911865197122097,site2/train/video4
+HR0208,site2/train/video4frame028,EndoVis 2018,site2,train,site2/video4,28,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement,0.3063720762729645,site2/train/video4
+HR0209,site2/train/video4frame098,EndoVis 2018,site2,train,site2/video4,98,1,0,0,,0.3114868104457855,site2/train/video4
+HR0210,site2/train/video4frame141,EndoVis 2018,site2,train,site2/video4,141,1,0,0,,0.1006317138671875,site2/train/video4
+HR0211,site2/train/video5frame017,EndoVis 2018,site2,train,site2/video5,17,1,0,0,,0.0009124755742959678,site2/train/video5
+HR0212,site2/train/video5frame034,EndoVis 2018,site2,train,site2/video5,34,1,0,0,,0.14442138373851776,site2/train/video5
+HR0213,site2/train/video5frame042,EndoVis 2018,site2,train,site2/video5,42,1,0,0,,0.14742736518383026,site2/train/video5
+HR0214,site2/train/video5frame068,EndoVis 2018,site2,train,site2/video5,68,1,0,0,,0.286508172750473,site2/train/video5
+HR0215,site2/train/video5frame084,EndoVis 2018,site2,train,site2/video5,84,1,0,0,,0.15473632514476776,site2/train/video5
+HR0216,site2/train/video5frame112,EndoVis 2018,site2,train,site2/video5,112,1,0,0,,0.19237060844898224,site2/train/video5
+HR0217,site2/train/video5frame121,EndoVis 2018,site2,train,site2/video5,121,1,0,0,,0.21628418564796448,site2/train/video5
+HR0218,site2/train/video5frame133,EndoVis 2018,site2,train,site2/video5,133,1,0,0,,0.0967864990234375,site2/train/video5
+HR0219,site2/train/video6frame000,EndoVis 2018,site2,train,site2/video6,0,1,0,0,,0.411712646484375,site2/train/video6
+HR0220,site2/train/video6frame023,EndoVis 2018,site2,train,site2/video6,23,1,0,0,,0.11768493801355362,site2/train/video6
+HR0221,site2/train/video6frame044,EndoVis 2018,site2,train,site2/video6,44,1,0,0,,0.29490965604782104,site2/train/video6
+HR0222,site2/train/video6frame064,EndoVis 2018,site2,train,site2/video6,64,1,0,0,,0.3399658203125,site2/train/video6
+HR0223,site2/train/video6frame086,EndoVis 2018,site2,train,site2/video6,86,1,0,0,,0.16796569526195526,site2/train/video6
+HR0224,site2/train/video6frame105,EndoVis 2018,site2,train,site2/video6,105,1,0,0,,0.09305725246667862,site2/train/video6
+HR0225,site2/train/video6frame127,EndoVis 2018,site2,train,site2/video6,127,1,0,0,,0.3836914002895355,site2/train/video6
+HR0226,site2/train/video6frame138,EndoVis 2018,site2,train,site2/video6,138,1,0,0,,0.05652465671300888,site2/train/video6
+HR0227,site2/train/video7frame000,EndoVis 2018,site2,train,site2/video7,0,1,0,0,,0.10473938286304474,site2/train/video7
+HR0228,site2/train/video7frame026,EndoVis 2018,site2,train,site2/video7,26,1,0,0,,0.05724792554974556,site2/train/video7
+HR0229,site2/train/video7frame031,EndoVis 2018,site2,train,site2/video7,31,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0063568116165697575,site2/train/video7
+HR0230,site2/train/video7frame041,EndoVis 2018,site2,train,site2/video7,41,1,0,0,,0.05121154710650444,site2/train/video7
+HR0231,site2/train/video7frame067,EndoVis 2018,site2,train,site2/video7,67,1,0,0,,0.2366485595703125,site2/train/video7
+HR0232,site2/train/video7frame076,EndoVis 2018,site2,train,site2/video7,76,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0,site2/train/video7
+HR0233,site2/train/video7frame077,EndoVis 2018,site2,train,site2/video7,77,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.0,site2/train/video7
+HR0234,site2/train/video7frame081,EndoVis 2018,site2,train,site2/video7,81,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.011157226748764515,site2/train/video7
+HR0235,site2/train/video7frame087,EndoVis 2018,site2,train,site2/video7,87,1,0,0,,0.011199951171875,site2/train/video7
+HR0236,site2/train/video7frame097,EndoVis 2018,site2,train,site2/video7,97,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.01593322679400444,site2/train/video7
+HR0237,site2/train/video7frame104,EndoVis 2018,site2,train,site2/video7,104,1,0,0,,0.14974060654640198,site2/train/video7
+HR0238,site2/train/video7frame129,EndoVis 2018,site2,train,site2/video7,129,1,0,0,,0.3194824159145355,site2/train/video7
+HR0239,site2/train/video7frame132,EndoVis 2018,site2,train,site2/video7,132,1,0,0,,0.32771605253219604,site2/train/video7
+HR0240,site2/train/video7frame146,EndoVis 2018,site2,train,site2/video7,146,0,1,0,contrast_abnormal | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement | semantic_occlusion_positive,0.02204284630715847,site2/train/video7
+HR0241,site2/train/video9frame012,EndoVis 2018,site2,train,site2/video9,12,1,0,0,,0.374725341796875,site2/train/video9
+HR0242,site2/train/video9frame020,EndoVis 2018,site2,train,site2/video9,20,1,0,0,,0.41228026151657104,site2/train/video9
+HR0243,site2/train/video9frame055,EndoVis 2018,site2,train,site2/video9,55,1,0,0,,0.03752441331744194,site2/train/video9
+HR0244,site2/train/video9frame064,EndoVis 2018,site2,train,site2/video9,64,1,0,0,,0.051239013671875,site2/train/video9
+HR0245,site2/train/video9frame078,EndoVis 2018,site2,train,site2/video9,78,1,0,0,,0.0047454833984375,site2/train/video9
+HR0246,site2/train/video9frame099,EndoVis 2018,site2,train,site2/video9,99,1,0,0,,0.12894287705421448,site2/train/video9
+HR0247,site2/train/video9frame116,EndoVis 2018,site2,train,site2/video9,116,1,0,0,,0.17113952338695526,site2/train/video9
+HR0248,site2/train/video9frame131,EndoVis 2018,site2,train,site2/video9,131,1,0,0,,0.0763397216796875,site2/train/video9
+HR0249,site2/train/video9frame136,EndoVis 2018,site2,train,site2/video9,136,0,1,1,all_machine_smoke_positive | contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | semantic_occlusion_positive,0.05174865573644638,site2/train/video9
+HR0250,site2/train/video9frame138,EndoVis 2018,site2,train,site2/video9,138,0,1,0,contrast_abnormal | glare_positive | machine_min_confidence_le_0.6 | nonclear_quality | q8_disagrees_with_5pct_mask_rule | ranked_rare_low_confidence_or_mask_disagreement,0.03244934231042862,site2/train/video9

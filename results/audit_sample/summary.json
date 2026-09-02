@@ -1,0 +1,65 @@
+{
+  "full_corpus_n": 5632,
+  "representative_n": 200,
+  "challenge_n": 50,
+  "all_human_n": 250,
+  "full_video_count": 25,
+  "representative_video_count": 25,
+  "all_human_video_count": 25,
+  "representative_video_coverage_fraction": 1.0,
+  "uncovered_representative_videos": [],
+  "distribution_distance": [
+    {
+      "field": "q4_bleeding",
+      "total_variation_distance": 0.059907670454545425,
+      "maximum_absolute_percentage_point_difference": 5.9907670454545485,
+      "full_class_count": 2,
+      "representative_class_count": 2
+    },
+    {
+      "field": "q4_smoke",
+      "total_variation_distance": 0.0035511363636363587,
+      "maximum_absolute_percentage_point_difference": 0.35511363636363635,
+      "full_class_count": 2,
+      "representative_class_count": 1
+    },
+    {
+      "field": "q4_occlusion",
+      "total_variation_distance": 0.00868607954545459,
+      "maximum_absolute_percentage_point_difference": 0.8686079545454639,
+      "full_class_count": 2,
+      "representative_class_count": 2
+    },
+    {
+      "field": "q5_value",
+      "total_variation_distance": 0.009190340909090943,
+      "maximum_absolute_percentage_point_difference": 0.9190340909090988,
+      "full_class_count": 3,
+      "representative_class_count": 2
+    },
+    {
+      "field": "q6_glare",
+      "total_variation_distance": 0.008970170454545429,
+      "maximum_absolute_percentage_point_difference": 0.8970170454545456,
+      "full_class_count": 2,
+      "representative_class_count": 2
+    },
+    {
+      "field": "q7_contrast_normal",
+      "total_variation_distance": 0.007059659090909099,
+      "maximum_absolute_percentage_point_difference": 0.705965909090911,
+      "full_class_count": 2,
+      "representative_class_count": 2
+    },
+    {
+      "field": "q9_smoke_region",
+      "total_variation_distance": 0.0003551136363636414,
+      "maximum_absolute_percentage_point_difference": 0.035511363636364646,
+      "full_class_count": 2,
+      "representative_class_count": 1
+    }
+  ],
+  "annotations_sha256": "5fbc8af0dd534bceaf4fe3093467a320bb1135a396cad08c8bfbda8e1956dbfc",
+  "manifest_sha256": "2ecda09f3282650622aeabcebdd72026135920ca2524dd088f962911a76ff2ca",
+  "human_reference_sha256": "93d1c5fa238911fe97398957fe4c2526117ca3361376b7f85b9eed2a5452a3e2"
+}

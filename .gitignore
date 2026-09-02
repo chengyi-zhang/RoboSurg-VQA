@@ -1,0 +1,15 @@
+external_data/
+features/
+checkpoints/
+outputs/
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.npz
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db

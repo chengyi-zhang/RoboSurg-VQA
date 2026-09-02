@@ -1,0 +1,13 @@
+task_set,tasks,task_count,condition,accuracy,macro_f1,balanced_accuracy
+candidate_visual_five,q4.bleeding|q4.occlusion|q5|q6|q7,5,majority_prior,0.8541014402003757,0.4192430046386407,0.4666666666666666
+candidate_visual_five,q4.bleeding|q4.occlusion|q5|q6|q7,5,rgb_linear,0.866374452097683,0.5305034110909828,0.5324361729854619
+candidate_visual_five,q4.bleeding|q4.occlusion|q5|q6|q7,5,mask_linear,0.6976831559173451,0.4666108112586599,0.5726888756597481
+candidate_visual_five,q4.bleeding|q4.occlusion|q5|q6|q7,5,rgb_mask_linear,0.8661239824671257,0.5340351436626125,0.5364778619524854
+discriminative_without_q8,q2|q4.bleeding|q4.occlusion|q5|q6|q7,6,majority_prior,0.8349541423267927,0.3847882401208204,0.4305555555555555
+discriminative_without_q8,q2|q4.bleeding|q4.occlusion|q5|q6|q7,6,rgb_linear,0.841671120646431,0.4882089695294181,0.49910748628437657
+discriminative_without_q8,q2|q4.bleeding|q4.occlusion|q5|q6|q7,6,mask_linear,0.6452608713219601,0.4263502651719635,0.5112840226783576
+discriminative_without_q8,q2|q4.bleeding|q4.occlusion|q5|q6|q7,6,rgb_mask_linear,0.8434684140084624,0.4947121108665753,0.5038764810339269
+direct_mask_tasks,q2|q8.mask_center_5pct_v1,2,majority_prior,0.7462525334299706,0.32107863733728786,0.375
+direct_mask_tasks,q2|q8.mask_center_5pct_v1,2,rgb_linear,0.7598286405867571,0.5219043217979318,0.5743261101310518
+direct_mask_tasks,q2|q8.mask_center_5pct_v1,2,mask_linear,0.6849998963703886,0.6037609871716554,0.5956322692718354
+direct_mask_tasks,q2|q8.mask_center_5pct_v1,2,rgb_mask_linear,0.8387959746490568,0.6147022770563197,0.6427375338944536

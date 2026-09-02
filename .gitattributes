@@ -1,0 +1,7 @@
+# Preserve the release checksums on every platform.
+* -text
+*.pt binary
+*.npz binary
+*.png binary
+*.jpg binary
+*.pdf binary

@@ -1,0 +1,16 @@
+{
+  "model": "gpt-4o-mini",
+  "image_detail": "low",
+  "temperature": 0.0,
+  "response_format": {
+    "type": "json_object"
+  },
+  "inputs": [
+    "RGB frame",
+    "pseudocolour segmentation mask"
+  ],
+  "user_text": [
+    "Follow the system instruction and answer ONLY the enabled questions (q1-q9). Return STRICT JSON as specified.",
+    "Here are the enabled questions: <canonical q1-q9 list>"
+  ]
+}

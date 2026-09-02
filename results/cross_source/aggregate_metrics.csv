@@ -1,0 +1,9 @@
+direction,condition,eligible_non_direct_tasks,tasks,mean_task_macro_f1
+site1_train_to_site2_test,majority_prior,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.40047081321290134
+site1_train_to_site2_test,rgb_linear,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.485658379662998
+site1_train_to_site2_test,mask_linear,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.4267536688599705
+site1_train_to_site2_test,rgb_mask_linear,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.46779047914095706
+site2_train_to_site1_test,majority_prior,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.444224764387853
+site2_train_to_site1_test,rgb_linear,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.4420953939439098
+site2_train_to_site1_test,mask_linear,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.45864022570143376
+site2_train_to_site1_test,rgb_mask_linear,5,q4.bleeding|q4.occlusion|q5|q6|q7,0.4740000552884106

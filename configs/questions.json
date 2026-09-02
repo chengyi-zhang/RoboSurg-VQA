@@ -1,0 +1,93 @@
+{
+  "schema_version": "shared_vqa_questions",
+  "tasks": {
+    "q1": {
+      "canonical": "What procedure does this source sequence depict?",
+      "train_paraphrases": [
+        "Which surgical procedure is shown in this source sequence?",
+        "What operation was recorded in this sequence?"
+      ],
+      "heldout_paraphrase": "What type of operation is represented by this source sequence?"
+    },
+    "q2": {
+      "canonical": "Which organ or anatomical region has the largest official mask area in this image?",
+      "train_paraphrases": [
+        "What is the dominant annotated anatomical region in this frame?",
+        "Which anatomy class covers the greatest labelled area in the image?"
+      ],
+      "heldout_paraphrase": "What anatomical class occupies the largest official mask region in this frame?"
+    },
+    "q3": {
+      "canonical": "What is the source imaging modality or view?",
+      "train_paraphrases": [
+        "Which camera modality produced this image?",
+        "What imaging view is used for this frame?"
+      ],
+      "heldout_paraphrase": "What type of surgical camera view is shown here?"
+    },
+    "q4.bleeding": {
+      "canonical": "Is bleeding visible in the image?",
+      "train_paraphrases": [
+        "Can bleeding be seen in this frame?",
+        "Does the operative view show visible bleeding?"
+      ],
+      "heldout_paraphrase": "Does this image contain visible bleeding?"
+    },
+    "q4.smoke": {
+      "canonical": "Is smoke visible in the image?",
+      "train_paraphrases": [
+        "Can smoke be seen in this frame?",
+        "Does the operative view contain visible smoke?"
+      ],
+      "heldout_paraphrase": "Is there visible smoke in the surgical scene?"
+    },
+    "q4.occlusion": {
+      "canonical": "Is the surgical view visibly obstructed?",
+      "train_paraphrases": [
+        "Is part of the operative field visibly obscured?",
+        "Does anything noticeably block the surgical view?"
+      ],
+      "heldout_paraphrase": "Is visibility of the operative field obstructed?"
+    },
+    "q5": {
+      "canonical": "How is the visual quality of the current scene?",
+      "train_paraphrases": [
+        "What best describes the image quality in this frame?",
+        "How clear or degraded is the current surgical view?"
+      ],
+      "heldout_paraphrase": "Which visual-quality category applies to this image?"
+    },
+    "q6": {
+      "canonical": "Is there specular reflection or glare?",
+      "train_paraphrases": [
+        "Can specular glare be seen in this frame?",
+        "Does the image show specular reflection or glare?"
+      ],
+      "heldout_paraphrase": "Is specular glare visible in the operative view?"
+    },
+    "q7": {
+      "canonical": "Is the image contrast normal?",
+      "train_paraphrases": [
+        "Does this frame have normal visual contrast?",
+        "Is the contrast of the operative image normal?"
+      ],
+      "heldout_paraphrase": "Would the contrast in this image be considered normal?"
+    },
+    "q8.mask_center_5pct_v1": {
+      "canonical": "Do official instrument masks occupy at least 5% of the central 50% by 50% image region?",
+      "train_paraphrases": [
+        "Is at least 5% of the central 50% by 50% region covered by official instrument masks?",
+        "Within the central 50% by 50% window, do instrument masks cover 5% or more?"
+      ],
+      "heldout_paraphrase": "Is instrument-mask coverage at least 5% inside the central 50% by 50% of the frame?"
+    },
+    "q9": {
+      "canonical": "Which regions contain smoke?",
+      "train_paraphrases": [
+        "Where in the frame is smoke visible?",
+        "Which image region contains the visible smoke?"
+      ],
+      "heldout_paraphrase": "Where is smoke present in the operative view?"
+    }
+  }
+}

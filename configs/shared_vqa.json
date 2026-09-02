@@ -1,0 +1,45 @@
+{
+  "protocol": "shared_question_conditioned_vqa",
+  "model_id": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+  "model_revision": "9f341de24bfb00180f1b847274256e9b65a3a32e",
+  "text_model_id": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract",
+  "text_model_revision": "d673b8835373c6fa116d6d8006b33d48734e305d",
+  "encoder_frozen": true,
+  "conditions": [
+    "question_only",
+    "image_only",
+    "image_question"
+  ],
+  "seeds": [
+    20260831,
+    20260832,
+    20260833
+  ],
+  "validation_sequence_count": 4,
+  "projection_dim": 256,
+  "dropout": 0.1,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "maximum_epochs": 80,
+  "early_stopping_patience": 10,
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 20260831,
+  "bootstrap_design": "paired source-sequence resampling stratified by site",
+  "primary_tasks": [
+    "q2",
+    "q4.bleeding",
+    "q4.occlusion",
+    "q5",
+    "q6",
+    "q7",
+    "q8.mask_center_5pct_v1"
+  ],
+  "perceptual_tasks": [
+    "q4.bleeding",
+    "q4.occlusion",
+    "q5",
+    "q6",
+    "q7"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿task_set,included_tasks,task_count,condition,mean_fixed_label_macro_f1
+all_five_candidate_visual_tasks,q4.bleeding | q4.occlusion | q5 | q6 | q7,5,majority_prior,0.4192430046386407
+all_five_candidate_visual_tasks,q4.bleeding | q4.occlusion | q5 | q6 | q7,5,rgb_linear,0.5305034110909828
+all_five_candidate_visual_tasks,q4.bleeding | q4.occlusion | q5 | q6 | q7,5,mask_linear,0.4666108112586599
+all_five_candidate_visual_tasks,q4.bleeding | q4.occlusion | q5 | q6 | q7,5,rgb_mask_linear,0.5340351436626125
+without_q7,q4.bleeding | q4.occlusion | q5 | q6,4,majority_prior,0.4009206131227369
+without_q7,q4.bleeding | q4.occlusion | q5 | q6,4,rgb_linear,0.5206761795501791
+without_q7,q4.bleeding | q4.occlusion | q5 | q6,4,mask_linear,0.4629276511838429
+without_q7,q4.bleeding | q4.occlusion | q5 | q6,4,rgb_mask_linear,0.52331825520447
+without_q4_view_obstruction,q4.bleeding | q5 | q6 | q7,4,majority_prior,0.4015282130141375
+without_q4_view_obstruction,q4.bleeding | q5 | q6 | q7,4,rgb_linear,0.524649855246349
+without_q4_view_obstruction,q4.bleeding | q5 | q6 | q7,4,mask_linear,0.44952399797267945
+without_q4_view_obstruction,q4.bleeding | q5 | q6 | q7,4,rgb_mask_linear,0.5252061287250096
+without_q7_and_q4_view_obstruction,q4.bleeding | q5 | q6,3,majority_prior,0.37119342711809794
+without_q7_and_q4_view_obstruction,q4.bleeding | q5 | q6,3,rgb_linear,0.509595694577066
+without_q7_and_q4_view_obstruction,q4.bleeding | q5 | q6,3,mask_linear,0.4389175134442633
+without_q7_and_q4_view_obstruction,q4.bleeding | q5 | q6,3,rgb_mask_linear,0.5079739391349518

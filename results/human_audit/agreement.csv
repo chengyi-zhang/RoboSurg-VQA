@@ -1,0 +1,25 @@
+subset,field,n,agreement_n,disagreement_n,raw_agreement,cohen_kappa,annotator_a_distribution,annotator_b_distribution,binary_evaluable_n,uncertain_involved_n,positive_agreement,negative_agreement,both_yes,a_yes_b_no,a_no_b_yes,both_no
+all,q4_bleeding,250,228,22,0.912,0.637131358448242,"{""no"": 213, ""uncertain"": 2, ""yes"": 35}","{""no"": 217, ""uncertain"": 1, ""yes"": 32}",248,2,0.6865671641791045,0.951048951048951,23,12,9,204
+all,q4_smoke,250,247,3,0.988,0.8830135704258306,"{""no"": 237, ""uncertain"": 1, ""yes"": 12}","{""no"": 236, ""uncertain"": 1, ""yes"": 13}",249,1,0.88,0.9936575052854123,11,1,2,235
+all,q4_occlusion,250,243,7,0.972,0.21489457155675185,"{""no"": 243, ""uncertain"": 1, ""yes"": 6}","{""no"": 248, ""uncertain"": 1, ""yes"": 1}",249,1,0.0,0.9857433808553971,0,6,1,242
+all,q5_value,250,234,16,0.936,0.7351344192822146,"{""blurry"": 30, ""clear"": 214, ""mixed"": 2, ""reflective"": 4}","{""blurry"": 24, ""clear"": 218, ""mixed"": 3, ""reflective"": 5}",,,,,,,,
+all,q6_glare,250,197,53,0.788,0.2961113472163195,"{""no"": 202, ""yes"": 48}","{""no"": 206, ""uncertain"": 1, ""yes"": 43}",249,1,0.4222222222222222,0.8725490196078431,19,28,24,178
+all,q7_contrast_normal,250,249,1,0.996,0.6653279785809892,"{""no"": 1, ""uncertain"": 1, ""yes"": 248}","{""uncertain"": 1, ""yes"": 249}",249,1,0.9979879275653923,0.0,248,0,1,0
+all,q9_smoke_region,250,247,3,0.988,0.8838469877652159,"{""center"": 2, ""multiple"": 9, ""none"": 238, ""uncertain"": 1}","{""center"": 2, ""multiple"": 12, ""none"": 235, ""uncertain"": 1}",,,,,,,,
+all,global_unusable_frame_yes_no,250,250,0,1.0,1.0,"{""no"": 248, ""yes"": 2}","{""no"": 248, ""yes"": 2}",250,0,1.0,1.0,2,0,0,248
+representative,q4_bleeding,200,182,18,0.91,0.5742667928098396,"{""no"": 174, ""yes"": 26}","{""no"": 178, ""yes"": 22}",200,0,0.625,0.9488636363636364,15,11,7,167
+representative,q4_smoke,200,199,1,0.995,0.6644295302013425,"{""no"": 199, ""yes"": 1}","{""no"": 198, ""yes"": 2}",200,0,0.6666666666666666,0.9974811083123426,1,0,1,198
+representative,q4_occlusion,200,195,5,0.975,-0.008064516129035868,"{""no"": 196, ""yes"": 4}","{""no"": 199, ""yes"": 1}",200,0,0.0,0.9873417721518988,0,4,1,195
+representative,q5_value,200,187,13,0.935,0.6012269938650311,"{""blurry"": 16, ""clear"": 180, ""reflective"": 4}","{""blurry"": 10, ""clear"": 185, ""reflective"": 5}",,,,,,,,
+representative,q6_glare,200,161,39,0.805,0.3172268907563029,"{""no"": 164, ""yes"": 36}","{""no"": 167, ""yes"": 33}",200,0,0.43478260869565216,0.8821752265861027,15,21,18,146
+representative,q7_contrast_normal,200,199,1,0.995,0.0,"{""no"": 1, ""yes"": 199}","{""yes"": 200}",200,0,0.9974937343358395,0.0,199,0,1,0
+representative,q9_smoke_region,200,199,1,0.995,0.6644295302013425,"{""multiple"": 1, ""none"": 199}","{""multiple"": 2, ""none"": 198}",,,,,,,,
+representative,global_unusable_frame_yes_no,200,200,0,1.0,,"{""no"": 200}","{""no"": 200}",200,0,,1.0,0,0,0,200
+challenge,q4_bleeding,50,46,4,0.92,0.7745208568207442,"{""no"": 39, ""uncertain"": 2, ""yes"": 9}","{""no"": 39, ""uncertain"": 1, ""yes"": 10}",48,2,0.8421052631578947,0.961038961038961,8,1,2,37
+challenge,q4_smoke,50,48,2,0.96,0.892933618843683,"{""no"": 38, ""uncertain"": 1, ""yes"": 11}","{""no"": 38, ""uncertain"": 1, ""yes"": 11}",49,1,0.9090909090909091,0.9736842105263158,10,1,1,37
+challenge,q4_occlusion,50,48,2,0.96,0.48979591836734737,"{""no"": 47, ""uncertain"": 1, ""yes"": 2}","{""no"": 49, ""uncertain"": 1}",49,1,0.0,0.9791666666666666,0,2,0,47
+challenge,q5_value,50,47,3,0.94,0.8724489795918366,"{""blurry"": 14, ""clear"": 34, ""mixed"": 2}","{""blurry"": 14, ""clear"": 33, ""mixed"": 3}",,,,,,,,
+challenge,q6_glare,50,36,14,0.72,0.22048997772828494,"{""no"": 38, ""yes"": 12}","{""no"": 39, ""uncertain"": 1, ""yes"": 10}",49,1,0.38095238095238093,0.8311688311688312,4,7,6,32
+challenge,q7_contrast_normal,50,50,0,1.0,1.0,"{""uncertain"": 1, ""yes"": 49}","{""uncertain"": 1, ""yes"": 49}",49,1,1.0,,49,0,0,0
+challenge,q9_smoke_region,50,48,2,0.96,0.8971193415637859,"{""center"": 2, ""multiple"": 8, ""none"": 39, ""uncertain"": 1}","{""center"": 2, ""multiple"": 10, ""none"": 37, ""uncertain"": 1}",,,,,,,,
+challenge,global_unusable_frame_yes_no,50,50,0,1.0,1.0,"{""no"": 48, ""yes"": 2}","{""no"": 48, ""yes"": 2}",50,0,1.0,1.0,2,0,0,48

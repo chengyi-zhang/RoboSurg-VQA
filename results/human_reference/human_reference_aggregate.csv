@@ -1,0 +1,5 @@
+﻿condition,included_tasks,task_count,mean_accuracy,mean_macro_f1,mean_balanced_accuracy
+majority_prior,q4.bleeding | q5 | q6,3,0.8250000000000001,0.4499600121342489,0.5
+rgb_linear,q4.bleeding | q5 | q6,3,0.7666666666666666,0.5273255869055733,0.5400641025641025
+mask_linear,q4.bleeding | q5 | q6,3,0.65,0.49593678004191144,0.49192994505494503
+rgb_mask_linear,q4.bleeding | q5 | q6,3,0.8083333333333332,0.5614704967697925,0.5760836385836386

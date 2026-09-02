@@ -1,0 +1,85 @@
+﻿subset,task,human_label,machine_label,count
+all,q4.bleeding,no,no,140
+all,q4.bleeding,no,yes,66
+all,q4.bleeding,yes,no,1
+all,q4.bleeding,yes,yes,41
+all,q4.smoke,no,no,227
+all,q4.smoke,no,yes,7
+all,q4.smoke,yes,no,2
+all,q4.smoke,yes,yes,12
+all,q4.occlusion,no,no,208
+all,q4.occlusion,no,yes,37
+all,q4.occlusion,yes,no,0
+all,q4.occlusion,yes,yes,3
+all,q5,clear,clear,188
+all,q5,clear,degraded,32
+all,q5,degraded,clear,8
+all,q5,degraded,degraded,20
+all,q6,no,no,178
+all,q6,no,yes,15
+all,q6,yes,no,43
+all,q6,yes,yes,12
+all,q7,no,no,0
+all,q7,no,yes,0
+all,q7,yes,no,49
+all,q7,yes,yes,199
+all,q9,none,none,234
+all,q9,none,smoke present,0
+all,q9,smoke present,none,12
+all,q9,smoke present,smoke present,2
+representative,q4.bleeding,no,no,114
+representative,q4.bleeding,no,yes,56
+representative,q4.bleeding,yes,no,1
+representative,q4.bleeding,yes,yes,29
+representative,q4.smoke,no,no,198
+representative,q4.smoke,no,yes,0
+representative,q4.smoke,yes,no,2
+representative,q4.smoke,yes,yes,0
+representative,q4.occlusion,no,no,187
+representative,q4.occlusion,no,yes,12
+representative,q4.occlusion,yes,no,0
+representative,q4.occlusion,yes,yes,1
+representative,q5,clear,clear,178
+representative,q5,clear,degraded,9
+representative,q5,degraded,clear,8
+representative,q5,degraded,degraded,5
+representative,q6,no,no,159
+representative,q6,no,yes,2
+representative,q6,yes,no,38
+representative,q6,yes,yes,1
+representative,q7,no,no,0
+representative,q7,no,yes,0
+representative,q7,yes,no,11
+representative,q7,yes,yes,189
+representative,q9,none,none,198
+representative,q9,none,smoke present,0
+representative,q9,smoke present,none,2
+representative,q9,smoke present,smoke present,0
+challenge,q4.bleeding,no,no,26
+challenge,q4.bleeding,no,yes,10
+challenge,q4.bleeding,yes,no,0
+challenge,q4.bleeding,yes,yes,12
+challenge,q4.smoke,no,no,29
+challenge,q4.smoke,no,yes,7
+challenge,q4.smoke,yes,no,0
+challenge,q4.smoke,yes,yes,12
+challenge,q4.occlusion,no,no,21
+challenge,q4.occlusion,no,yes,25
+challenge,q4.occlusion,yes,no,0
+challenge,q4.occlusion,yes,yes,2
+challenge,q5,clear,clear,10
+challenge,q5,clear,degraded,23
+challenge,q5,degraded,clear,0
+challenge,q5,degraded,degraded,15
+challenge,q6,no,no,19
+challenge,q6,no,yes,13
+challenge,q6,yes,no,5
+challenge,q6,yes,yes,11
+challenge,q7,no,no,0
+challenge,q7,no,yes,0
+challenge,q7,yes,no,38
+challenge,q7,yes,yes,10
+challenge,q9,none,none,36
+challenge,q9,none,smoke present,0
+challenge,q9,smoke present,none,10
+challenge,q9,smoke present,smoke present,2

@@ -1,0 +1,23 @@
+site,dataset,target,role,primary_scored,reference_type,human_audit_required,source,rationale
+site1,EndoVis 2017,q1,source_metadata,0,procedure_source_metadata,0,https://arxiv.org/abs/1902.06426,"Procedure identity is sequence-level provenance, not a frame-level visual target."
+site1,EndoVis 2017,q3,source_metadata,0,imaging_source_metadata,0,https://arxiv.org/abs/1902.06426,Imaging modality is fixed by source acquisition metadata.
+site1,EndoVis 2017,q2,excluded_by_source_schema,0,not_applicable_by_source_annotation_schema,0,https://arxiv.org/abs/1902.06426,EndoVis17 instrument annotations do not provide native anatomy ground truth.
+site1,EndoVis 2017,q4.bleeding,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site1,EndoVis 2017,q4.smoke,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site1,EndoVis 2017,q4.occlusion,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site1,EndoVis 2017,q5,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site1,EndoVis 2017,q6,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site1,EndoVis 2017,q7,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site1,EndoVis 2017,q8.mask_center_5pct_v1,deterministic_mask_target,1,official_mask_deterministic,0,original EndoVis instrument mask,Central instrument-mask occupancy thresholded at 5%.
+site1,EndoVis 2017,q9,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q1,source_metadata,0,procedure_source_metadata,0,https://arxiv.org/abs/2001.11190,"Procedure identity is sequence-level provenance, not a frame-level visual target."
+site2,EndoVis 2018,q3,source_metadata,0,imaging_source_metadata,0,https://arxiv.org/abs/2001.11190,Imaging modality is fixed by source acquisition metadata.
+site2,EndoVis 2018,q2,primary_target,1,official_mask_deterministic,0,https://arxiv.org/abs/2001.11190,Largest-area native anatomy class from the official semantic mask.
+site2,EndoVis 2018,q4.bleeding,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q4.smoke,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q4.occlusion,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q5,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q6,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q7,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.
+site2,EndoVis 2018,q8.mask_center_5pct_v1,deterministic_mask_target,1,official_mask_deterministic,0,original EndoVis instrument mask,Central instrument-mask occupancy thresholded at 5%.
+site2,EndoVis 2018,q9,candidate_visual_attribute,1,machine_generated_reference,1,GPT-4o-mini candidate layer,Compared with the adjudicated human audit.

@@ -1,0 +1,10 @@
+task,canonical_question_count,question_only_predictor,predicted_label,test_n,test_reference_classes,accuracy,macro_f1,balanced_accuracy
+q2,1,training_majority_label_for_fixed_question,other abdominal soft tissue (peritoneum/mesentery/fat),997,4,0.7392176529588766,0.21251441753171857,0.25
+q4.bleeding,1,training_majority_label_for_fixed_question,no,1597,2,0.42204132748904194,0.2967855570233377,0.5
+q4.occlusion,1,training_majority_label_for_fixed_question,no,1597,2,0.9611772072636193,0.4901021711366539,0.5
+q4.smoke,1,training_majority_label_for_fixed_question,no,1597,1,1.0,0.5,0.5
+q5,1,training_majority_label_for_fixed_question,clear,1597,2,0.9442705072010019,0.32377885131508316,0.3333333333333333
+q6,1,training_majority_label_for_fixed_question,no,1597,2,0.9724483406386976,0.49301587301587296,0.5
+q7,1,training_majority_label_for_fixed_question,yes,1597,2,0.9705698184095178,0.49253257070225615,0.5
+q8.mask_center_5pct_v1,1,training_majority_label_for_fixed_question,yes,1597,2,0.7532874139010645,0.42964285714285716,0.5
+q9,1,training_majority_label_for_fixed_question,none,1597,1,1.0,0.5,0.5
