@@ -162,19 +162,7 @@ are cached under `.cache/`; model and tokenizer revisions are pinned in
 *RoboSurg-VQA: A Multimodal Visual Question Answering Benchmark Derived from
 Surgical Segmentation Data.*
 
-Machine-readable citation metadata are available in [CITATION.cff](CITATION.cff).
-To cite the repository before journal publication:
-
-```bibtex
-@misc{zhang2026robosurgvqa,
-  author = {Zhang, Chengyi and Ye, Zi and Wang, Ziyang},
-  title = {{RoboSurg-VQA}: A Multimodal Visual Question Answering
-           Benchmark Derived from Surgical Segmentation Data},
-  year = {2026},
-  howpublished = {GitHub repository},
-  url = {https://github.com/chengyi-zhang/RoboSurg-VQA}
-}
-```
+Publication details and BibTeX will be added here when the paper is published.
 
 ## Licence
 

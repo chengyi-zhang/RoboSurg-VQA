@@ -11,7 +11,7 @@ authors:
   - family-names: Wang
     given-names: Ziyang
 preferred-citation:
-  type: article
+  type: unpublished
   title: "RoboSurg-VQA: A Multimodal Visual Question Answering Benchmark Derived from Surgical Segmentation Data"
   authors:
     - family-names: Zhang
@@ -21,3 +21,4 @@ preferred-citation:
     - family-names: Wang
       given-names: Ziyang
   year: 2026
+  notes: "Unpublished manuscript."
